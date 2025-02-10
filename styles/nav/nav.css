@@ -1,0 +1,21 @@
+.page-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+}
+.page-container header nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+.page-container header nav .nav-label a {
+  text-decoration: none;
+  color: #555555;
+}/*# sourceMappingURL=nav.css.map */
