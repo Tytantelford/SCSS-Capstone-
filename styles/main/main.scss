@@ -54,7 +54,7 @@ body {
   .see-more {
     position: absolute;
     display: inline-block;
-    background-color: #3c4858;
+    background-color: #e91e63;
     border-radius: 3px;
     top: 400px;
     left: 50%;
@@ -247,7 +247,7 @@ body {
       display: flex;
       position: absolute;
       height: 700px;
-      top: -200px;
+      top: -100px;
     }
     i {
       position: relative;
@@ -255,8 +255,16 @@ body {
       top: 5px;
       font-size: 42px;
 
-      i.fa-solid.fa-location-dot {
-        color: rgb(199, 10, 10);
+      &.fa-solid.fa-location-dot {
+        color: white;
+        top: 232px;
+        left: 146px;
+      }
+
+      &.fa-solid.fa-mobile-screen-button {
+        color: white;
+        top: 311px;
+        left: -567px;
       }
     }
     span {
@@ -266,12 +274,11 @@ body {
       top: 5px;
 
       &.get-in-touch {
-        top: 30px;
         font-size: 37px;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
-        top: 25px;
-        left: 137px;
+        top: 136px;
+        left: 111px;
       }
 
       &.find-us-office {
@@ -279,27 +286,30 @@ body {
         font-family: "Roboto Slab", "Times New Roman", serif;
         top: 50px;
         font-weight: 700;
-        top: 135px;
-        left: -50px;
+        top: 230px;
+        left: -75px;
       }
 
       &.strada-address {
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
-        top: 20px;
+        top: 263px;
+        left: -247px;
       }
 
       &.give-us-ring {
         font-size: 18px;
         font-family: "Roboto Slab", "Times New Roman", serif;
-        top: 50px;
+        top: 301px;
+        left: -560px;
         font-weight: 700;
       }
 
       &.john-doe-number {
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
-        top: 50px;
+        top: 333px;
+        left: -680px;
       }
     }
   }
