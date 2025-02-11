@@ -71,9 +71,19 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  margin-bottom: 700px;
+  margin-bottom: 300px;
   top: 100px;
   left: 320px;
+  z-index: 10;
+}
+.main-wrapper .stand-for-container .stand-for-heading {
+  color: #3c4858;
+  font-size: 37px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+  position: relative;
+  bottom: 340px;
+  left: 510px;
   z-index: 10;
 }
 .main-wrapper .stand-for-container .span {
@@ -81,8 +91,8 @@ body {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   margin-bottom: 7px;
-  bottom: 550px;
-  left: 305px;
+  bottom: 200px;
+  left: 320px;
   z-index: 10;
   font-size: 18px;
   color: #3c4858;
@@ -94,15 +104,16 @@ body {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   margin-bottom: 7px;
-  bottom: 550px;
+  bottom: 200px;
   left: 213px;
   z-index: 10;
   font-size: 14px;
   color: #999999;
-  font-family: serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .main-wrapper .about-hestia {
+  display: flex;
   background-image: url("../../assets/mountain.jpg");
   background-repeat: no-repeat;
   display: flex;
@@ -113,8 +124,38 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.main-wrapper .about-hestia span {
+  display: flex;
+  justify-content: flex-start;
+  top: 300px;
+  color: #fff;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 37px;
+}
+.main-wrapper .about-hestia p {
+  color: #fefefe;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .main-wrapper .blog-container {
-  background-color: red;
+  background-color: rgb(173, 169, 169);
   position: relative;
-  height: 600px;
+  bottom: 200px;
+  height: 500px;
+}
+.main-wrapper .blog-container span {
+  font-size: 37px;
+  color: #3c4858;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+}
+.main-wrapper .get-in-touch-container {
+  position: relative;
+  width: 100%;
+}
+.main-wrapper .get-in-touch-container .img {
+  display: flex;
+  position: absolute;
+  height: 570px;
 }/*# sourceMappingURL=main.css.map */
