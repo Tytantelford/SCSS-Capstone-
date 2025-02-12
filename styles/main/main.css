@@ -130,9 +130,9 @@ body {
 .page-container .main-wrapper .about-hestia .words-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .page-container .main-wrapper .about-hestia span {
-  display: flex;
   color: #fff;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
@@ -142,10 +142,15 @@ body {
   color: #fefefe;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  width: 375px;
+  line-height: 1.5;
 }
 .page-container .main-wrapper .about-hestia img {
   width: auto;
   height: 140px;
+  align-items: center;
+  justify-content: center;
 }
 .page-container .main-wrapper .blog-container {
   display: flex;
@@ -201,6 +206,9 @@ body {
   text-decoration: none;
   color: #23527c;
 }
+.page-container .main-wrapper .blog-container .grid-container a {
+  text-decoration: none;
+}
 .page-container .main-wrapper .blog-container .grid-container .purple-uncategorized {
   color: #89229b;
   font-family: Arial, Helvetica, sans-serif;
@@ -235,9 +243,6 @@ body {
   font-weight: 700;
 }
 .page-container .main-wrapper .get-in-touch-container i {
-  position: relative;
-  z-index: 100;
-  top: 5px;
   font-size: 42px;
 }
 .page-container .main-wrapper footer {

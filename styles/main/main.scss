@@ -144,13 +144,13 @@ body {
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
-
+      ////////////////////////////
       .words-wrapper {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
       }
       span {
-        display: flex;
         color: #fff;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
@@ -161,14 +161,19 @@ body {
         color: #fefefe;
         font-weight: 300;
         font-family: Arial, Helvetica, sans-serif;
+        word-wrap: break-word;
+        width: 375px;
+        line-height: 1.5;
       }
 
       img {
         width: auto;
         height: 140px;
+        align-items: center;
+        justify-content: center;
       }
     }
-
+    ////////////////////////////
     .blog-container {
       display: flex;
       flex-direction: column;
@@ -229,6 +234,10 @@ body {
           }
         }
 
+        a {
+          text-decoration: none;
+        }
+
         .purple-uncategorized {
           color: #89229b;
           font-family: Arial, Helvetica, sans-serif;
@@ -270,70 +279,9 @@ body {
       }
 
       i {
-        position: relative;
-        z-index: 100;
-        top: 5px;
         font-size: 42px;
-
-        // &.fa-solid.fa-location-dot {
-        //   color: white;
-        //   top: 332px;
-        //   left: 146px;
-        // }
-
-        // &.fa-solid.fa-mobile-screen-button {
-        //   color: white;
-        //   top: 411px;
-        //   left: -567px;
-        // }
       }
-
-      // span {
-      //   position: relative;
-      //   z-index: 100;
-      //   color: white;
-      //   top: 5px;
-
-      // &.get-in-touch {
-      //   font-size: 37px;
-      //   font-family: "Roboto Slab", "Times New Roman", serif;
-      //   font-weight: 700;
-      //   top: 236px;
-      //   left: 111px;
-      // }
-
-      // &.find-us-office {
-      //   font-size: 18px;
-      //   font-family: "Roboto Slab", "Times New Roman", serif;
-      //   top: 50px;
-      //   font-weight: 700;
-      //   top: 330px;
-      //   left: -75px;
-      // }
-
-      // &.strada-address {
-      //   font-size: 14px;
-      //   font-family: Arial, Helvetica, sans-serif;
-      //   top: 363px;
-      //   left: -247px;
-      // }
-
-      // &.give-us-ring {
-      //   font-size: 18px;
-      //   font-family: "Roboto Slab", "Times New Roman", serif;
-      //   top: 401px;
-      //   left: -560px;
-      //   font-weight: 700;
-      // }
-
-      // &.john-doe-number {
-      //   font-size: 14px;
-      //   font-family: Arial, Helvetica, sans-serif;
-      //   top: 433px;
-      //   left: -680px;
-      // }
     }
-    // }
     footer {
       background-color: #323437;
       width: 100%;
