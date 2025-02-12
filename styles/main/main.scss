@@ -85,56 +85,53 @@ body {
     top: 446px;
 
     .stand-for-container {
-      .grid-wrapper {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 300px;
-        top: 100px;
-        left: 320px;
-        z-index: 10;
-      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+      width: 80%;
+      margin: 0 auto;
 
       .stand-for-heading {
         color: #3c4858;
         font-size: 37px;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
-        position: relative;
-        bottom: 340px;
-        left: 510px;
-        z-index: 10;
-      }
-
-      .span {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 7px;
-        bottom: 200px;
-        left: 320px;
-        z-index: 10;
-        font-size: 18px;
-        color: #ef3232;
-        font-family: "Roboto Slab", "Times New Roman", serif;
-        font-weight: 700;
-      }
-
-      .paragraph-stand-for {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 7px;
-        bottom: 200px;
-        left: 213px;
-        z-index: 10;
-        font-size: 14px;
-        color: #999999;
-        font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        margin-bottom: 120px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        text-align: center;
+
+        img {
+          width: 70px;
+          height: auto;
+          margin-bottom: 15px;
+        }
+
+        span {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+          color: #3c4858;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: "Roboto Slab", "Times New Roman", serif;
+        }
+
+        p {
+          max-width: 270px;
+          color: #999999;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          line-height: 1.5;
+        }
       }
     }
-
     .about-hestia {
       display: flex;
       // position: relative;
@@ -148,11 +145,12 @@ body {
       background-size: cover;
       background-attachment: fixed;
 
+      .words-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
       span {
         display: flex;
-        position: relative;
-        top: 72px;
-        left: -320px;
         color: #fff;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
@@ -160,35 +158,76 @@ body {
       }
 
       p {
-        display: flex;
-        position: relative;
-        top: 125px;
-        left: -550px;
-        width: 330px;
         color: #fefefe;
         font-weight: 300;
         font-family: Arial, Helvetica, sans-serif;
       }
 
       img {
-        display: flex;
-        position: absolute;
-        left: 465px;
-        top: 565px;
         width: auto;
         height: 140px;
       }
     }
 
     .blog-container {
-      .grid-wrapper {
-        position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 400px;
+      margin: 0 auto;
+
+      .blog-heading {
+        color: #3c4858;
+        font-size: 37px;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 19px;
+      }
+      .grid-container {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 300px;
-        top: 100px;
-        left: 320px;
-        z-index: 10;
+        grid-template-columns: 1fr 0.5fr 1fr;
+        width: 80%;
+        text-align: center;
+
+        .purple {
+          text-align: left;
+        }
+
+        .blue {
+          text-align: left;
+        }
+
+        .red {
+          text-align: left;
+          margin-left: 30px;
+        }
+
+        span {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+          color: #3c4858;
+          font-size: 18px;
+          font-weight: 700;
+          font-family: "Roboto Slab", "Times New Roman", serif;
+          margin-top: 10px;
+        }
+
+        p {
+          color: #999999;
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+          line-height: 1.5;
+          text-align: left;
+          max-width: 200px;
+
+          a {
+            text-decoration: none;
+            color: #23527c;
+          }
+        }
 
         .purple-uncategorized {
           color: #89229b;
@@ -207,46 +246,6 @@ body {
           font-family: Arial, Helvetica, sans-serif;
           font-size: 12px;
         }
-      }
-
-      .blog-heading {
-        color: #3c4858;
-        font-size: 37px;
-        font-family: "Roboto Slab", "Times New Roman", serif;
-        font-weight: 700;
-        position: relative;
-        bottom: 340px;
-        left: 510px;
-        z-index: 10;
-      }
-
-      .span {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 7px;
-        bottom: 200px;
-        left: 320px;
-        z-index: 10;
-        font-size: 18px;
-        color: #ef3232;
-        font-family: "Roboto Slab", "Times New Roman", serif;
-        font-weight: 700;
-      }
-
-      .paragraph-blog {
-        position: relative;
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        margin-bottom: 7px;
-        bottom: 200px;
-        left: 320px;
-        z-index: 10;
-        font-size: 14px;
-        color: #999999;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        text-align: left;
       }
     }
 
@@ -341,50 +340,49 @@ body {
       height: 100px;
       position: relative;
       z-index: 2004;
-      padding: 0 20px; // Add padding to create space from edges
+      padding: 0 20px;
 
       nav {
         display: flex;
-        justify-content: space-between; // Space out the left and right divs
-        align-items: center; // Align items vertically in the center
+        justify-content: space-between;
+        align-items: center;
         height: 100%;
-      }
 
-      .nav-left {
-        display: flex;
-        align-items: center;
-        margin-right: auto; // Push this section to the left
-      }
+        .nav-left {
+          display: flex;
+          align-items: center;
+          margin-right: auto;
 
-      .nav-links-left {
-        display: flex; // Align the links horizontally next to each other
-      }
+          .nav-links-left {
+            display: flex;
 
-      .nav-left .nav-label {
-        font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        margin-right: 20px; // Space between 'about' and 'parent page'
-      }
+            .nav-label {
+              font-size: 12px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              margin-right: 20px;
+            }
+          }
+        }
 
-      .nav-right {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end; // Align the content to the right
-      }
+        .nav-right {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
 
-      .nav-right .nav-label {
-        text-align: right;
-        color: white;
-        font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+          .nav-label {
+            text-align: right;
+            color: white;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
 
-      // Optional: Styling for links
-      .nav-label a {
-        text-decoration: none;
-        color: white; // Change text color to white for visibility
-        font-size: 14px;
+            a {
+              text-decoration: none;
+              color: white;
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
   }

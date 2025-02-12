@@ -71,50 +71,49 @@ body {
   z-index: 100;
   top: 446px;
 }
-.page-container .main-wrapper .stand-for-container .grid-wrapper {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 300px;
-  top: 100px;
-  left: 320px;
-  z-index: 10;
+.page-container .main-wrapper .stand-for-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
 }
 .page-container .main-wrapper .stand-for-container .stand-for-heading {
   color: #3c4858;
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
-  position: relative;
-  bottom: 340px;
-  left: 510px;
-  z-index: 10;
-}
-.page-container .main-wrapper .stand-for-container .span {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 7px;
-  bottom: 200px;
-  left: 320px;
-  z-index: 10;
-  font-size: 18px;
-  color: #ef3232;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  font-weight: 700;
-}
-.page-container .main-wrapper .stand-for-container .paragraph-stand-for {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 7px;
-  bottom: 200px;
-  left: 213px;
-  z-index: 10;
-  font-size: 14px;
-  color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-bottom: 120px;
+}
+.page-container .main-wrapper .stand-for-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+.page-container .main-wrapper .stand-for-container .grid-container img {
+  width: 70px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.page-container .main-wrapper .stand-for-container .grid-container span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #3c4858;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+.page-container .main-wrapper .stand-for-container .grid-container p {
+  max-width: 270px;
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 .page-container .main-wrapper .about-hestia {
   display: flex;
@@ -128,94 +127,94 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.page-container .main-wrapper .about-hestia .words-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .page-container .main-wrapper .about-hestia span {
   display: flex;
-  position: relative;
-  top: 72px;
-  left: -320px;
   color: #fff;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
   font-size: 37px;
 }
 .page-container .main-wrapper .about-hestia p {
-  display: flex;
-  position: relative;
-  top: 125px;
-  left: -550px;
-  width: 330px;
   color: #fefefe;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .about-hestia img {
-  display: flex;
-  position: absolute;
-  left: 465px;
-  top: 565px;
   width: auto;
   height: 140px;
 }
-.page-container .main-wrapper .blog-container .grid-wrapper {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 300px;
-  top: 100px;
-  left: 320px;
-  z-index: 10;
-}
-.page-container .main-wrapper .blog-container .grid-wrapper .purple-uncategorized {
-  color: #89229b;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-.page-container .main-wrapper .blog-container .grid-wrapper .blue-uncategorized {
-  color: #00bcd4;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-}
-.page-container .main-wrapper .blog-container .grid-wrapper .red-uncategorized {
-  color: #f44336;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+.page-container .main-wrapper .blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 0 auto;
 }
 .page-container .main-wrapper .blog-container .blog-heading {
   color: #3c4858;
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
-  position: relative;
-  bottom: 340px;
-  left: 510px;
-  z-index: 10;
-}
-.page-container .main-wrapper .blog-container .span {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 7px;
-  bottom: 200px;
-  left: 320px;
-  z-index: 10;
-  font-size: 18px;
-  color: #ef3232;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  font-weight: 700;
-}
-.page-container .main-wrapper .blog-container .paragraph-blog {
-  position: relative;
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  margin-bottom: 7px;
-  bottom: 200px;
-  left: 320px;
-  z-index: 10;
-  font-size: 14px;
-  color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-bottom: 19px;
+}
+.page-container .main-wrapper .blog-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  width: 80%;
+  text-align: center;
+}
+.page-container .main-wrapper .blog-container .grid-container .purple {
   text-align: left;
+}
+.page-container .main-wrapper .blog-container .grid-container .blue {
+  text-align: left;
+}
+.page-container .main-wrapper .blog-container .grid-container .red {
+  text-align: left;
+  margin-left: 30px;
+}
+.page-container .main-wrapper .blog-container .grid-container span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #3c4858;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  margin-top: 10px;
+}
+.page-container .main-wrapper .blog-container .grid-container p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 200px;
+}
+.page-container .main-wrapper .blog-container .grid-container p a {
+  text-decoration: none;
+  color: #23527c;
+}
+.page-container .main-wrapper .blog-container .grid-container .purple-uncategorized {
+  color: #89229b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .grid-container .blue-uncategorized {
+  color: #00bcd4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .grid-container .red-uncategorized {
+  color: #f44336;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 .page-container .main-wrapper .get-in-touch-container {
   position: relative;
@@ -255,32 +254,32 @@ body {
   align-items: center;
   height: 100%;
 }
-.page-container .main-wrapper footer .nav-left {
+.page-container .main-wrapper footer nav .nav-left {
   display: flex;
   align-items: center;
   margin-right: auto;
 }
-.page-container .main-wrapper footer .nav-links-left {
+.page-container .main-wrapper footer nav .nav-left .nav-links-left {
   display: flex;
 }
-.page-container .main-wrapper footer .nav-left .nav-label {
+.page-container .main-wrapper footer nav .nav-left .nav-links-left .nav-label {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-right: 20px;
 }
-.page-container .main-wrapper footer .nav-right {
+.page-container .main-wrapper footer nav .nav-right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.page-container .main-wrapper footer .nav-right .nav-label {
+.page-container .main-wrapper footer nav .nav-right .nav-label {
   text-align: right;
   color: white;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.page-container .main-wrapper footer .nav-label a {
+.page-container .main-wrapper footer nav .nav-right .nav-label a {
   text-decoration: none;
   color: white;
   font-size: 14px;
