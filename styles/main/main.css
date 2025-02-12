@@ -6,22 +6,26 @@ body {
   background-color: #d0d0d0;
 }
 
-.hero-wrapper {
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .hero-wrapper {
   position: relative;
 }
-.hero-wrapper .clouds-img {
+.page-container .hero-wrapper .clouds-img {
   position: absolute;
   height: 570px;
   width: 100%;
 }
-.hero-wrapper .statue-img {
+.page-container .hero-wrapper .statue-img {
   height: 570px;
   width: auto;
   position: absolute;
   left: 285px;
   top: -35px;
 }
-.hero-wrapper .welcome {
+.page-container .hero-wrapper .welcome {
   position: absolute;
   top: 220px;
   left: 50%;
@@ -32,7 +36,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-.hero-wrapper .lorem {
+.page-container .hero-wrapper .lorem {
   position: absolute;
   top: 300px;
   left: 50%;
@@ -42,7 +46,7 @@ body {
   color: white;
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
-.hero-wrapper .see-more {
+.page-container .hero-wrapper .see-more {
   position: absolute;
   display: inline-block;
   background-color: #e91e63;
@@ -56,8 +60,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-
-.main-wrapper {
+.page-container .main-wrapper {
   position: relative;
   background-color: white;
   border-radius: 10px 10px 10px 10px;
@@ -68,7 +71,7 @@ body {
   z-index: 100;
   top: 446px;
 }
-.main-wrapper .stand-for-container .grid-wrapper {
+.page-container .main-wrapper .stand-for-container .grid-wrapper {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -77,7 +80,7 @@ body {
   left: 320px;
   z-index: 10;
 }
-.main-wrapper .stand-for-container .stand-for-heading {
+.page-container .main-wrapper .stand-for-container .stand-for-heading {
   color: #3c4858;
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
@@ -87,7 +90,7 @@ body {
   left: 510px;
   z-index: 10;
 }
-.main-wrapper .stand-for-container .span {
+.page-container .main-wrapper .stand-for-container .span {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -100,7 +103,7 @@ body {
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
 }
-.main-wrapper .stand-for-container .paragraph-stand-for {
+.page-container .main-wrapper .stand-for-container .paragraph-stand-for {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -113,7 +116,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-.main-wrapper .about-hestia {
+.page-container .main-wrapper .about-hestia {
   display: flex;
   background-image: url("../../assets/mountain.jpg");
   background-repeat: no-repeat;
@@ -125,7 +128,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.main-wrapper .about-hestia span {
+.page-container .main-wrapper .about-hestia span {
   display: flex;
   position: relative;
   top: 72px;
@@ -135,7 +138,7 @@ body {
   font-weight: 700;
   font-size: 37px;
 }
-.main-wrapper .about-hestia p {
+.page-container .main-wrapper .about-hestia p {
   display: flex;
   position: relative;
   top: 125px;
@@ -145,7 +148,7 @@ body {
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
 }
-.main-wrapper .about-hestia img {
+.page-container .main-wrapper .about-hestia img {
   display: flex;
   position: absolute;
   left: 465px;
@@ -153,7 +156,7 @@ body {
   width: auto;
   height: 140px;
 }
-.main-wrapper .blog-container .grid-wrapper {
+.page-container .main-wrapper .blog-container .grid-wrapper {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -162,22 +165,22 @@ body {
   left: 320px;
   z-index: 10;
 }
-.main-wrapper .blog-container .grid-wrapper .purple-uncategorized {
+.page-container .main-wrapper .blog-container .grid-wrapper .purple-uncategorized {
   color: #89229b;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
-.main-wrapper .blog-container .grid-wrapper .blue-uncategorized {
+.page-container .main-wrapper .blog-container .grid-wrapper .blue-uncategorized {
   color: #00bcd4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
-.main-wrapper .blog-container .grid-wrapper .red-uncategorized {
+.page-container .main-wrapper .blog-container .grid-wrapper .red-uncategorized {
   color: #f44336;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
-.main-wrapper .blog-container .blog-heading {
+.page-container .main-wrapper .blog-container .blog-heading {
   color: #3c4858;
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
@@ -187,7 +190,7 @@ body {
   left: 510px;
   z-index: 10;
 }
-.main-wrapper .blog-container .span {
+.page-container .main-wrapper .blog-container .span {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -200,7 +203,7 @@ body {
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
 }
-.main-wrapper .blog-container .paragraph-blog {
+.page-container .main-wrapper .blog-container .paragraph-blog {
   position: relative;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -214,69 +217,71 @@ body {
   text-align: center;
   text-align: left;
 }
-.main-wrapper .get-in-touch-container {
+.page-container .main-wrapper .get-in-touch-container {
   position: relative;
-}
-.main-wrapper .get-in-touch-container img {
+  background-image: url("../../assets/mountain.jpg");
   width: 100%;
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  justify-content: center;
   height: 700px;
-  top: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.main-wrapper .get-in-touch-container i {
+.page-container .main-wrapper .get-in-touch-container .find-us-office {
+  color: white;
+  padding: 60px;
+  font-size: 37px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+}
+.page-container .main-wrapper .get-in-touch-container i {
   position: relative;
   z-index: 100;
   top: 5px;
   font-size: 42px;
 }
-.main-wrapper .get-in-touch-container i.fa-solid.fa-location-dot {
-  color: white;
-  top: 232px;
-  left: 146px;
-}
-.main-wrapper .get-in-touch-container i.fa-solid.fa-mobile-screen-button {
-  color: white;
-  top: 311px;
-  left: -567px;
-}
-.main-wrapper .get-in-touch-container span {
+.page-container .main-wrapper footer {
+  background-color: #323437;
+  width: 100%;
+  height: 100px;
   position: relative;
-  z-index: 100;
+  z-index: 2004;
+  padding: 0 20px;
+}
+.page-container .main-wrapper footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.page-container .main-wrapper footer .nav-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.page-container .main-wrapper footer .nav-links-left {
+  display: flex;
+}
+.page-container .main-wrapper footer .nav-left .nav-label {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
-  top: 5px;
+  margin-right: 20px;
 }
-.main-wrapper .get-in-touch-container span.get-in-touch {
-  font-size: 37px;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  font-weight: 700;
-  top: 136px;
-  left: 111px;
+.page-container .main-wrapper footer .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.main-wrapper .get-in-touch-container span.find-us-office {
-  font-size: 18px;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  top: 50px;
-  font-weight: 700;
-  top: 230px;
-  left: -75px;
-}
-.main-wrapper .get-in-touch-container span.strada-address {
+.page-container .main-wrapper footer .nav-right .nav-label {
+  text-align: right;
+  color: white;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  top: 263px;
-  left: -247px;
 }
-.main-wrapper .get-in-touch-container span.give-us-ring {
-  font-size: 18px;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  top: 301px;
-  left: -560px;
-  font-weight: 700;
-}
-.main-wrapper .get-in-touch-container span.john-doe-number {
+.page-container .main-wrapper footer .nav-label a {
+  text-decoration: none;
+  color: white;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 333px;
-  left: -680px;
 }/*# sourceMappingURL=main.css.map */

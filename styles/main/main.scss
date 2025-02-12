@@ -14,302 +14,377 @@ body {
 //   serif,
 //   font-weight: 700,
 // );
-
-.hero-wrapper {
-  position: relative;
-
-  .clouds-img {
-    position: absolute;
-    height: 570px;
-    width: 100%;
-  }
-  .statue-img {
-    height: 570px;
-    width: auto;
-    position: absolute;
-    left: 285px;
-    top: -35px;
-  }
-  .welcome {
-    position: absolute;
-    top: 220px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    font-size: 67px;
-    color: white;
-    font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-  .lorem {
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    font-size: 18px;
-    color: white;
-    font-family: "Roboto Slab", "Times New Roman", serif;
-  }
-  .see-more {
-    position: absolute;
-    display: inline-block;
-    background-color: #e91e63;
-    border-radius: 3px;
-    top: 400px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 15px 33px;
-    font-size: 12px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
-}
-
-.main-wrapper {
-  position: relative;
-  background-color: white;
-  border-radius: 10px 10px 10px 10px;
-  padding: -20px;
-  width: 95%;
-  justify-content: center;
-  margin: 0 auto;
-  z-index: 100;
-  top: 446px;
-
-  .stand-for-container {
-    .grid-wrapper {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 300px;
-      top: 100px;
-      left: 320px;
-      z-index: 10;
-    }
-
-    .stand-for-heading {
-      color: #3c4858;
-      font-size: 37px;
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-      position: relative;
-      bottom: 340px;
-      left: 510px;
-      z-index: 10;
-    }
-    .span {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 7px;
-      bottom: 200px;
-      left: 320px;
-      z-index: 10;
-      font-size: 18px;
-      color: #ef3232;
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-    }
-    .paragraph-stand-for {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 7px;
-      bottom: 200px;
-      left: 213px;
-      z-index: 10;
-      font-size: 14px;
-      color: #999999;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-    }
-  }
-
-  .about-hestia {
-    display: flex;
-    // position: relative;
-    background-image: url("../../assets/mountain.jpg");
-    background-repeat: no-repeat;
-    display: flex;
-    width: 100%;
-    height: 500px;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    span {
-      display: flex;
-      position: relative;
-      top: 72px;
-      left: -320px;
-      color: #fff;
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-      font-size: 37px;
-    }
-
-    p {
-      display: flex;
-      position: relative;
-      top: 125px;
-      left: -550px;
-      width: 330px;
-      color: #fefefe;
-      font-weight: 300;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    img {
-      display: flex;
-      position: absolute;
-      left: 465px;
-      top: 565px;
-      width: auto;
-      height: 140px;
-    }
-  }
-
-  .blog-container {
-    .grid-wrapper {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 300px;
-      top: 100px;
-      left: 320px;
-      z-index: 10;
-
-      .purple-uncategorized {
-        color: #89229b;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-      }
-
-      .blue-uncategorized {
-        color: #00bcd4;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-      }
-
-      .red-uncategorized {
-        color: #f44336;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-      }
-    }
-
-    .blog-heading {
-      color: #3c4858;
-      font-size: 37px;
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-      position: relative;
-      bottom: 340px;
-      left: 510px;
-      z-index: 10;
-    }
-    .span {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 7px;
-      bottom: 200px;
-      left: 320px;
-      z-index: 10;
-      font-size: 18px;
-      color: #ef3232;
-      font-family: "Roboto Slab", "Times New Roman", serif;
-      font-weight: 700;
-    }
-    .paragraph-blog {
-      position: relative;
-      display: grid;
-      grid-template-columns: 300px 300px 300px;
-      margin-bottom: 7px;
-      bottom: 200px;
-      left: 320px;
-      z-index: 10;
-      font-size: 14px;
-      color: #999999;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      text-align: left;
-    }
-  }
-
-  .get-in-touch-container {
+.page-container {
+  display: flex;
+  flex-direction: column;
+  .hero-wrapper {
     position: relative;
-    img {
-      width: 100%;
-      display: flex;
+
+    .clouds-img {
       position: absolute;
-      height: 700px;
-      top: -100px;
+      height: 570px;
+      width: 100%;
     }
-    i {
-      position: relative;
-      z-index: 100;
-      top: 5px;
-      font-size: 42px;
 
-      &.fa-solid.fa-location-dot {
-        color: white;
-        top: 232px;
-        left: 146px;
-      }
-
-      &.fa-solid.fa-mobile-screen-button {
-        color: white;
-        top: 311px;
-        left: -567px;
-      }
+    .statue-img {
+      height: 570px;
+      width: auto;
+      position: absolute;
+      left: 285px;
+      top: -35px;
     }
-    span {
-      position: relative;
-      z-index: 100;
+
+    .welcome {
+      position: absolute;
+      top: 220px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+      font-size: 67px;
       color: white;
-      top: 5px;
+      font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
 
-      &.get-in-touch {
+    .lorem {
+      position: absolute;
+      top: 300px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+      font-size: 18px;
+      color: white;
+      font-family: "Roboto Slab", "Times New Roman", serif;
+    }
+
+    .see-more {
+      position: absolute;
+      display: inline-block;
+      background-color: #e91e63;
+      border-radius: 3px;
+      top: 400px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px 33px;
+      font-size: 12px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+  }
+
+  .main-wrapper {
+    position: relative;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: -20px;
+    width: 95%;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 100;
+    top: 446px;
+
+    .stand-for-container {
+      .grid-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 300px;
+        top: 100px;
+        left: 320px;
+        z-index: 10;
+      }
+
+      .stand-for-heading {
+        color: #3c4858;
         font-size: 37px;
         font-family: "Roboto Slab", "Times New Roman", serif;
         font-weight: 700;
-        top: 136px;
-        left: 111px;
+        position: relative;
+        bottom: 340px;
+        left: 510px;
+        z-index: 10;
       }
 
-      &.find-us-office {
+      .span {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 7px;
+        bottom: 200px;
+        left: 320px;
+        z-index: 10;
         font-size: 18px;
+        color: #ef3232;
         font-family: "Roboto Slab", "Times New Roman", serif;
-        top: 50px;
-        font-weight: 700;
-        top: 230px;
-        left: -75px;
-      }
-
-      &.strada-address {
-        font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
-        top: 263px;
-        left: -247px;
-      }
-
-      &.give-us-ring {
-        font-size: 18px;
-        font-family: "Roboto Slab", "Times New Roman", serif;
-        top: 301px;
-        left: -560px;
         font-weight: 700;
       }
 
-      &.john-doe-number {
+      .paragraph-stand-for {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 7px;
+        bottom: 200px;
+        left: 213px;
+        z-index: 10;
+        font-size: 14px;
+        color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+    }
+
+    .about-hestia {
+      display: flex;
+      // position: relative;
+      background-image: url("../../assets/mountain.jpg");
+      background-repeat: no-repeat;
+      display: flex;
+      width: 100%;
+      height: 500px;
+      justify-content: center;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+
+      span {
+        display: flex;
+        position: relative;
+        top: 72px;
+        left: -320px;
+        color: #fff;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+        font-size: 37px;
+      }
+
+      p {
+        display: flex;
+        position: relative;
+        top: 125px;
+        left: -550px;
+        width: 330px;
+        color: #fefefe;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img {
+        display: flex;
+        position: absolute;
+        left: 465px;
+        top: 565px;
+        width: auto;
+        height: 140px;
+      }
+    }
+
+    .blog-container {
+      .grid-wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 300px;
+        top: 100px;
+        left: 320px;
+        z-index: 10;
+
+        .purple-uncategorized {
+          color: #89229b;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .blue-uncategorized {
+          color: #00bcd4;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .red-uncategorized {
+          color: #f44336;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+      }
+
+      .blog-heading {
+        color: #3c4858;
+        font-size: 37px;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+        position: relative;
+        bottom: 340px;
+        left: 510px;
+        z-index: 10;
+      }
+
+      .span {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 7px;
+        bottom: 200px;
+        left: 320px;
+        z-index: 10;
+        font-size: 18px;
+        color: #ef3232;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+      }
+
+      .paragraph-blog {
+        position: relative;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-bottom: 7px;
+        bottom: 200px;
+        left: 320px;
+        z-index: 10;
+        font-size: 14px;
+        color: #999999;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-align: left;
+      }
+    }
+
+    .get-in-touch-container {
+      position: relative;
+      background-image: url("../../assets/mountain.jpg");
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // padding: 100px;
+
+      .find-us-office {
+        color: white;
+        padding: 60px;
+        font-size: 37px;
+        font-family: "Roboto Slab", "Times New Roman", serif;
+        font-weight: 700;
+      }
+
+      i {
+        position: relative;
+        z-index: 100;
+        top: 5px;
+        font-size: 42px;
+
+        // &.fa-solid.fa-location-dot {
+        //   color: white;
+        //   top: 332px;
+        //   left: 146px;
+        // }
+
+        // &.fa-solid.fa-mobile-screen-button {
+        //   color: white;
+        //   top: 411px;
+        //   left: -567px;
+        // }
+      }
+
+      // span {
+      //   position: relative;
+      //   z-index: 100;
+      //   color: white;
+      //   top: 5px;
+
+      // &.get-in-touch {
+      //   font-size: 37px;
+      //   font-family: "Roboto Slab", "Times New Roman", serif;
+      //   font-weight: 700;
+      //   top: 236px;
+      //   left: 111px;
+      // }
+
+      // &.find-us-office {
+      //   font-size: 18px;
+      //   font-family: "Roboto Slab", "Times New Roman", serif;
+      //   top: 50px;
+      //   font-weight: 700;
+      //   top: 330px;
+      //   left: -75px;
+      // }
+
+      // &.strada-address {
+      //   font-size: 14px;
+      //   font-family: Arial, Helvetica, sans-serif;
+      //   top: 363px;
+      //   left: -247px;
+      // }
+
+      // &.give-us-ring {
+      //   font-size: 18px;
+      //   font-family: "Roboto Slab", "Times New Roman", serif;
+      //   top: 401px;
+      //   left: -560px;
+      //   font-weight: 700;
+      // }
+
+      // &.john-doe-number {
+      //   font-size: 14px;
+      //   font-family: Arial, Helvetica, sans-serif;
+      //   top: 433px;
+      //   left: -680px;
+      // }
+    }
+    // }
+    footer {
+      background-color: #323437;
+      width: 100%;
+      height: 100px;
+      position: relative;
+      z-index: 2004;
+      padding: 0 20px; // Add padding to create space from edges
+
+      nav {
+        display: flex;
+        justify-content: space-between; // Space out the left and right divs
+        align-items: center; // Align items vertically in the center
+        height: 100%;
+      }
+
+      .nav-left {
+        display: flex;
+        align-items: center;
+        margin-right: auto; // Push this section to the left
+      }
+
+      .nav-links-left {
+        display: flex; // Align the links horizontally next to each other
+      }
+
+      .nav-left .nav-label {
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-right: 20px; // Space between 'about' and 'parent page'
+      }
+
+      .nav-right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; // Align the content to the right
+      }
+
+      .nav-right .nav-label {
+        text-align: right;
+        color: white;
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
-        top: 333px;
-        left: -680px;
+      }
+
+      // Optional: Styling for links
+      .nav-label a {
+        text-decoration: none;
+        color: white; // Change text color to white for visibility
+        font-size: 14px;
       }
     }
   }

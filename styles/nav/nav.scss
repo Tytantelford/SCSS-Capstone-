@@ -1,4 +1,5 @@
 .page-container {
+  padding-top: 30px;
   header {
     display: flex;
     justify-content: space-between;
@@ -6,20 +7,42 @@
     padding: 20px;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2000;
     width: 100%;
     background-color: white;
+
     nav {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      align-items: center;
       width: 100%;
-      padding: 10px 15px;
+      padding: 0px 10px;
+      color: white;
+
+      .nav-hestia {
+        font-size: 18px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
 
       .nav-label {
-        a {
-          text-decoration: none;
-          color: #555555;
-        }
+        font-size: 12px;
+      }
+
+      .nav-more {
+        font-size: 12px;
+        background-color: #e91e63;
+        color: white;
+        border-radius: 10px;
+        margin: 0 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
       }
     }
   }
