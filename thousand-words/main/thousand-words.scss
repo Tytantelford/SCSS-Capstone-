@@ -54,6 +54,7 @@ body {
       height: 500px;
       width: 435px;
       margin: 0 auto;
+      gap: 10px;
 
       .boat-word {
         color: #3c4858;
@@ -98,8 +99,9 @@ body {
         display: flex;
         flex-direction: row;
         align-self: flex-end;
-        margin-top: -35px;
+        margin-top: -55px;
         font-size: 2rem;
+        gap: 5px;
 
         .fa-brands.fa-facebook {
           color: #3b5998;

@@ -2,9 +2,7 @@
   // padding-top: 30px;
   header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    // padding: 20px;
+    padding: 20px;
     position: fixed;
     top: 0;
     z-index: 2000;
@@ -14,35 +12,34 @@
     nav {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      flex-direction: row;
       width: 100%;
-      // padding: 0px 10px;
-      color: white;
-
-      .nav-hestia {
-        font-size: 18px;
-      }
+      padding: 0 40px;
 
       .nav-links {
         display: flex;
         gap: 20px;
-      }
 
-      .nav-label {
-        font-size: 12px;
+        .nav-label {
+          a {
+            font-size: 12px;
+          }
+        }
       }
-
       .nav-more {
-        font-size: 12px;
         background-color: #e91e63;
-        color: white;
         border-radius: 10px;
-        margin: 0 20px;
+        a {
+          color: white;
+          font-size: 12px;
+        }
       }
 
       a {
         text-decoration: none;
-        color: black;
+        font-size: 18px;
+        color: #555555;
+        font-family: Arial, Helvetica, sans-serif;
       }
     }
   }

@@ -1,7 +1,6 @@
 .page-container header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 20px;
   position: fixed;
   top: 0;
   z-index: 2000;
@@ -11,28 +10,28 @@
 .page-container header nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
   width: 100%;
-  color: white;
-}
-.page-container header nav .nav-hestia {
-  font-size: 18px;
+  padding: 0 40px;
 }
 .page-container header nav .nav-links {
   display: flex;
   gap: 20px;
 }
-.page-container header nav .nav-label {
+.page-container header nav .nav-links .nav-label a {
   font-size: 12px;
 }
 .page-container header nav .nav-more {
-  font-size: 12px;
   background-color: #e91e63;
-  color: white;
   border-radius: 10px;
-  margin: 0 20px;
+}
+.page-container header nav .nav-more a {
+  color: white;
+  font-size: 12px;
 }
 .page-container header nav a {
   text-decoration: none;
-  color: black;
+  font-size: 18px;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
 }/*# sourceMappingURL=nav.css.map */
