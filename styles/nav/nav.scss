@@ -1,10 +1,10 @@
 .page-container {
-  padding-top: 30px;
+  // padding-top: 30px;
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    // padding: 20px;
     position: fixed;
     top: 0;
     z-index: 2000;
@@ -16,7 +16,7 @@
       justify-content: space-between;
       align-items: center;
       width: 100%;
-      padding: 0px 10px;
+      // padding: 0px 10px;
       color: white;
 
       .nav-hestia {
