@@ -54,15 +54,100 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+.page-container .main-wrapper .img-container .boat-with-period {
+  align-self: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3c4858;
+}
 .page-container .main-wrapper .categories-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
+  margin-right: 100px;
 }
-.page-container .main-wrapper .categories-container .boat-with-period {
-  color: red;
+.page-container .main-wrapper .categories-container a {
+  text-decoration: none;
+  color: blue;
 }
 .page-container .main-wrapper .categories-container .categories {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .categories-container .tags {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .related-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 0 auto;
+}
+.page-container .related-posts-container .related-heading {
+  color: #3c4858;
+  font-size: 37px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.page-container .related-posts-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  width: 80%;
+  text-align: center;
+}
+.page-container .related-posts-container .grid-container .purple {
+  text-align: left;
+}
+.page-container .related-posts-container .grid-container .gray {
+  text-align: left;
+}
+.page-container .related-posts-container .grid-container .red {
+  text-align: left;
+  margin-left: 30px;
+}
+.page-container .related-posts-container .grid-container span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #3c4858;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  margin-top: 10px;
+}
+.page-container .related-posts-container .grid-container p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 200px;
+}
+.page-container .related-posts-container .grid-container p a {
   text-decoration: none;
+  color: #23527c;
+}
+.page-container .related-posts-container .grid-container a {
+  text-decoration: none;
+}
+.page-container .related-posts-container .grid-container .purple-uncategorized {
+  color: #89229b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .related-posts-container .grid-container .gray-uncategorized {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .related-posts-container .grid-container .red-uncategorized {
+  color: #f44336;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
