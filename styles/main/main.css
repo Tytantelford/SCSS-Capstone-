@@ -126,11 +126,9 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-.page-container .main-wrapper .about-hestia .words-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 .page-container .main-wrapper .about-hestia span {
   color: #fff;
@@ -149,8 +147,6 @@ body {
 .page-container .main-wrapper .about-hestia img {
   width: auto;
   height: 140px;
-  align-items: center;
-  justify-content: center;
 }
 .page-container .main-wrapper .blog-container {
   display: flex;
@@ -225,67 +221,72 @@ body {
   font-size: 12px;
 }
 .page-container .main-wrapper .get-in-touch-container {
-  position: relative;
   background-image: url("../../assets/mountain.jpg");
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.page-container .main-wrapper .get-in-touch-container .find-us-office {
   color: white;
-  padding: 60px;
+}
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper {
+  padding: 100px;
+}
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .header {
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
 }
-.page-container .main-wrapper .get-in-touch-container i {
-  font-size: 42px;
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .find-us-office {
+  font-size: 18px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
 }
-.page-container .main-wrapper footer {
-  background-color: #323437;
-  width: 100%;
-  height: 100px;
-  position: relative;
-  z-index: 2004;
-  padding: 0 20px;
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .find-us-office i {
+  font-size: 32px;
 }
-.page-container .main-wrapper footer nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-.page-container .main-wrapper footer nav .nav-left {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-.page-container .main-wrapper footer nav .nav-left .nav-links-left {
-  display: flex;
-}
-.page-container .main-wrapper footer nav .nav-left .nav-links-left .nav-label {
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  margin-right: 20px;
-}
-.page-container .main-wrapper footer nav .nav-right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-.page-container .main-wrapper footer nav .nav-right .nav-label {
-  text-align: right;
-  color: white;
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .strada-address {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.page-container .main-wrapper footer nav .nav-right .nav-label a {
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .give-us-ring {
+  font-size: 18px;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 700;
+}
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .john-doe-number {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container footer {
+  background-color: #323437;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+  z-index: 2000;
+}
+.page-container footer nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.page-container .nav-links-left {
+  display: flex;
+  gap: 20px;
+}
+.page-container .nav-label {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.page-container .nav-label a {
   text-decoration: none;
   color: white;
+}
+.page-container .developed-by {
+  margin-left: auto;
   font-size: 14px;
 }/*# sourceMappingURL=main.css.map */

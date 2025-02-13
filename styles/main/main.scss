@@ -134,7 +134,6 @@ body {
     }
     .about-hestia {
       display: flex;
-      // position: relative;
       background-image: url("../../assets/mountain.jpg");
       background-repeat: no-repeat;
       display: flex;
@@ -144,12 +143,10 @@ body {
       background-position: center;
       background-size: cover;
       background-attachment: fixed;
-      ////////////////////////////
-      .words-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-      }
+      align-items: center;
+      justify-content: center;
+      gap: 80px;
+
       span {
         color: #fff;
         font-family: "Roboto Slab", "Times New Roman", serif;
@@ -169,11 +166,9 @@ body {
       img {
         width: auto;
         height: 140px;
-        align-items: center;
-        justify-content: center;
       }
     }
-    ////////////////////////////
+
     .blog-container {
       display: flex;
       flex-direction: column;
@@ -259,79 +254,85 @@ body {
     }
 
     .get-in-touch-container {
-      position: relative;
       background-image: url("../../assets/mountain.jpg");
       width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
+      align-items: flex-start;
       height: 700px;
       background-repeat: no-repeat;
       background-size: cover;
-      // padding: 100px;
+      color: white;
 
-      .find-us-office {
-        color: white;
-        padding: 60px;
-        font-size: 37px;
-        font-family: "Roboto Slab", "Times New Roman", serif;
-        font-weight: 700;
-      }
+      .get-in-touch-wrapper {
+        padding: 100px;
 
-      i {
-        font-size: 42px;
-      }
-    }
-    footer {
-      background-color: #323437;
-      width: 100%;
-      height: 100px;
-      position: relative;
-      z-index: 2004;
-      padding: 0 20px;
+        .header {
+          font-size: 37px;
+          font-family: "Roboto Slab", "Times New Roman", serif;
+          font-weight: 700;
+        }
 
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 100%;
-
-        .nav-left {
-          display: flex;
-          align-items: center;
-          margin-right: auto;
-
-          .nav-links-left {
-            display: flex;
-
-            .nav-label {
-              font-size: 12px;
-              font-family: Arial, Helvetica, sans-serif;
-              color: white;
-              margin-right: 20px;
-            }
+        .find-us-office {
+          font-size: 18px;
+          font-family: "Roboto Slab", "Times New Roman", serif;
+          font-weight: 700;
+          i {
+            font-size: 32px;
           }
         }
 
-        .nav-right {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
+        .strada-address {
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
 
-          .nav-label {
-            text-align: right;
-            color: white;
-            font-size: 14px;
-            font-family: Arial, Helvetica, sans-serif;
+        .give-us-ring {
+          font-size: 18px;
+          font-family: "Roboto Slab", "Times New Roman", serif;
+          font-weight: 700;
+        }
 
-            a {
-              text-decoration: none;
-              color: white;
-              font-size: 14px;
-            }
-          }
+        .john-doe-number {
+          font-size: 14px;
+          font-family: Arial, Helvetica, sans-serif;
         }
       }
     }
+  }
+  footer {
+    background-color: #323437;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    z-index: 2000;
+  }
+
+  footer nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-links-left {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-label {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .nav-label a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .developed-by {
+    margin-left: auto;
+    font-size: 14px;
   }
 }
