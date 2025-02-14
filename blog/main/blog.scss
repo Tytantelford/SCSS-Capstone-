@@ -13,6 +13,24 @@ $gray-color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@mixin author-settings {
+  span {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    color: #3c4858;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .years {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
 html,
 body {
   margin: 0;
@@ -53,7 +71,7 @@ body {
     margin-top: -50px;
     margin-bottom: 200px;
     display: flex;
-    height: 1500px;
+    height: 1800px;
 
     .blog-container {
       display: flex;
@@ -71,11 +89,13 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 50px;
+        gap: 8px;
 
         .purple-uncategorized {
           color: #89229b;
           font-family: Arial, Helvetica, sans-serif;
           font-size: 12px;
+          // margin-bottom: 20px;
         }
 
         .thousand-words-hdr {
@@ -85,6 +105,10 @@ body {
         p {
           @include p-settings;
         }
+
+        span {
+          @include author-settings;
+        }
       }
 
       .blue {
@@ -93,6 +117,8 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+        width: 62%;
 
         .blue-uncategorized {
           color: #00bcd4;
@@ -106,10 +132,15 @@ body {
 
         p {
           @include p-settings;
+          line-height: 1.5;
 
           a {
             color: #23527c;
           }
+        }
+
+        span {
+          @include author-settings;
         }
       }
 
@@ -119,6 +150,25 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+
+        .red-uncategorized {
+          color: #f44336;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .more-tags-hdr {
+          @include header-settings;
+        }
+
+        p {
+          @include p-settings;
+        }
+
+        span {
+          @include author-settings;
+        }
       }
 
       .orange {
@@ -127,6 +177,31 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+        width: 62%;
+
+        .orange-uncategorized {
+          color: #ff9800;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .html-hdr {
+          @include header-settings;
+        }
+
+        p {
+          @include p-settings;
+          line-height: 1.5;
+
+          a {
+            color: #23527c;
+          }
+        }
+
+        span {
+          @include author-settings;
+        }
       }
 
       .dark-red {
@@ -135,6 +210,25 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+
+        .dark-red-uncategorized {
+          color: #e91e63;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .links-hdr {
+          @include header-settings;
+        }
+
+        p {
+          @include p-settings;
+        }
+
+        span {
+          @include author-settings;
+        }
       }
 
       .green {
@@ -143,6 +237,27 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+        width: 62%;
+
+        .first-child-hdr {
+          color: #4caf50;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .hierarchy-hdr {
+          @include header-settings;
+        }
+
+        p {
+          @include p-settings;
+          line-height: 1.5;
+        }
+
+        span {
+          @include author-settings;
+        }
       }
 
       .purple {
@@ -151,6 +266,25 @@ body {
         align-items: flex-start;
         flex-direction: column;
         margin-top: 80px;
+        gap: 8px;
+
+        .purple-uncategorized {
+          color: #89229b;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+
+        .hello-world-hdr {
+          @include header-settings;
+        }
+
+        p {
+          @include p-settings;
+        }
+
+        span {
+          @include author-settings;
+        }
       }
     }
   }

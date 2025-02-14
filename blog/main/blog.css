@@ -36,7 +36,7 @@ body {
   margin-top: -50px;
   margin-bottom: 200px;
   display: flex;
-  height: 1500px;
+  height: 1800px;
 }
 .page-container .main-wrapper .blog-container {
   display: flex;
@@ -53,6 +53,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 50px;
+  gap: 8px;
 }
 .page-container .main-wrapper .blog-container .purple .purple-uncategorized {
   color: #89229b;
@@ -70,12 +71,27 @@ body {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.page-container .main-wrapper .blog-container .purple span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .page-container .main-wrapper .blog-container .blue {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+  width: 62%;
 }
 .page-container .main-wrapper .blog-container .blue .blue-uncategorized {
   color: #00bcd4;
@@ -92,9 +108,23 @@ body {
   color: #999999;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 .page-container .main-wrapper .blog-container .blue p a {
   color: #23527c;
+}
+.page-container .main-wrapper .blog-container .blue span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .blue span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .blue span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .blog-container .red {
   display: flex;
@@ -102,6 +132,36 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+}
+.page-container .main-wrapper .blog-container .red .red-uncategorized {
+  color: #f44336;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .red .more-tags-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .red p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .red span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .red span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .red span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .blog-container .orange {
   display: flex;
@@ -109,6 +169,41 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+  width: 62%;
+}
+.page-container .main-wrapper .blog-container .orange .orange-uncategorized {
+  color: #ff9800;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .orange .html-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .orange p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.page-container .main-wrapper .blog-container .orange p a {
+  color: #23527c;
+}
+.page-container .main-wrapper .blog-container .orange span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .orange span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .orange span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .blog-container .dark-red {
   display: flex;
@@ -116,6 +211,36 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+}
+.page-container .main-wrapper .blog-container .dark-red .dark-red-uncategorized {
+  color: #e91e63;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .dark-red .links-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .dark-red p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .dark-red span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .dark-red span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .dark-red span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .blog-container .green {
   display: flex;
@@ -123,6 +248,38 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+  width: 62%;
+}
+.page-container .main-wrapper .blog-container .green .first-child-hdr {
+  color: #4caf50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .green .hierarchy-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .green p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.page-container .main-wrapper .blog-container .green span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .green span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .green span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .page-container .main-wrapper .blog-container .purple {
   display: flex;
@@ -130,4 +287,34 @@ body {
   align-items: flex-start;
   flex-direction: column;
   margin-top: 80px;
+  gap: 8px;
+}
+.page-container .main-wrapper .blog-container .purple .purple-uncategorized {
+  color: #89229b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .purple .hello-world-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .purple p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span span {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span a {
+  color: #3c4858;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span .years {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
 }/*# sourceMappingURL=blog.css.map */
