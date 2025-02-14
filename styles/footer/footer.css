@@ -1,0 +1,33 @@
+.page-container footer {
+  display: flex;
+  padding: 40px;
+  z-index: 2000;
+  width: 100%;
+  background-color: #323437;
+}
+.page-container footer nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 40px;
+}
+.page-container footer nav .nav-links-left {
+  display: flex;
+  gap: 20px;
+  padding: 0 50px;
+}
+.page-container footer nav .nav-links-left .nav-label a {
+  font-size: 12px;
+}
+.page-container footer nav .developed-by {
+  margin-left: auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 50px;
+}
+.page-container footer nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=footer.css.map */
