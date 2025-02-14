@@ -1,42 +1,42 @@
-.page-container {
-  footer {
+// .page-container {
+footer {
+  display: flex;
+  padding: 40px;
+  z-index: 2000;
+  width: 100%;
+  background-color: #323437;
+
+  nav {
     display: flex;
-    padding: 40px;
-    z-index: 2000;
+    flex-direction: row;
     width: 100%;
-    background-color: #323437;
+    padding: 0 40px;
 
-    nav {
+    .nav-links-left {
       display: flex;
-      flex-direction: row;
-      width: 100%;
-      padding: 0 40px;
+      gap: 20px;
+      padding: 0 50px;
 
-      .nav-links-left {
-        display: flex;
-        gap: 20px;
-        padding: 0 50px;
-
-        .nav-label {
-          a {
-            font-size: 12px;
-          }
+      .nav-label {
+        a {
+          font-size: 12px;
         }
       }
+    }
 
-      .developed-by {
-        margin-left: auto;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0 50px;
-      }
+    .developed-by {
+      margin-left: auto;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0 50px;
+    }
 
-      a {
-        text-decoration: none;
-        font-size: 14px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
     }
   }
 }
+// }
