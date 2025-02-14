@@ -3,5 +3,131 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: #e4e4e4;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  background: linear-gradient(to right, #b32281, #e03572);
+  height: 300px;
+}
+.page-container .hero-wrapper span {
+  font-size: 42px;
+  color: white;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.page-container .main-wrapper {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  padding: -20px;
+  width: 95%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 200px;
+  display: flex;
+  height: 1500px;
+}
+.page-container .main-wrapper .blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+.page-container .main-wrapper .blog-container a {
+  text-decoration: none;
+}
+.page-container .main-wrapper .blog-container .purple {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.page-container .main-wrapper .blog-container .purple .purple-uncategorized {
+  color: #89229b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .purple .thousand-words-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .purple p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .blue {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.page-container .main-wrapper .blog-container .blue .blue-uncategorized {
+  color: #00bcd4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .blue .elements-hdr {
+  font-size: 25px;
+  font-family: "Robo Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .blue p {
+  color: #999999;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .blue p a {
+  color: #23527c;
+}
+.page-container .main-wrapper .blog-container .red {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.page-container .main-wrapper .blog-container .orange {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.page-container .main-wrapper .blog-container .dark-red {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.page-container .main-wrapper .blog-container .green {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.page-container .main-wrapper .blog-container .purple {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 80px;
 }/*# sourceMappingURL=blog.css.map */
