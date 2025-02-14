@@ -9,4 +9,28 @@ body {
 .page-container {
   display: flex;
   flex-direction: column;
+}
+.page-container .hero-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .hero-wrapper .map-wrapper iframe {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+.page-container .main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .main-wrapper .left-side .header {
+  background-color: white;
+  height: 900px;
+}
+.page-container .main-wrapper .right-side {
+  flex-direction: column;
+}
+.page-container .main-wrapper .right-side form .your-name {
+  border: none;
+  text-align: center;
 }/*# sourceMappingURL=contact.css.map */
