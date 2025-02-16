@@ -1,0 +1,63 @@
+@mixin header-color {
+  color: #3c4858;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e4e4e4;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background: linear-gradient(to right, #b32281, #e03572);
+    height: 300px;
+
+    .elements-hdr {
+      font-size: 42px;
+      color: white;
+      font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .published-date {
+      font-size: 18px;
+      color: white;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      margin-bottom: 90px;
+    }
+  }
+
+  .main-wrapper {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    padding: -20px;
+    width: 95%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    height: 2700px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 100px;
+
+    .heading-font-sizing {
+      .h1 {
+        @include header-color;
+      }
+    }
+  }
+}
