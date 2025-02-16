@@ -1,5 +1,18 @@
-@mixin header-color {
+@mixin heading-settings {
   color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+}
+
+@mixin p-tags {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@mixin top-a-tags {
+  text-decoration: none;
+  color: #e91e63;
 }
 
 html,
@@ -56,7 +69,112 @@ body {
 
     .heading-font-sizing {
       .h1 {
-        @include header-color;
+        @include heading-settings;
+        font-size: 42px;
+      }
+
+      .h2 {
+        @include heading-settings;
+        font-size: 37px;
+      }
+
+      .h3 {
+        @include heading-settings;
+        font-size: 32px;
+      }
+
+      .h4 {
+        @include heading-settings;
+        font-size: 27px;
+      }
+
+      .h5 {
+        @include heading-settings;
+        font-size: 23px;
+      }
+
+      .h6 {
+        @include heading-settings;
+        font-size: 18px;
+      }
+
+      a {
+        @include top-a-tags;
+        transition: 0.3s ease-in;
+      }
+    }
+
+    .paragraph {
+      .paragraph-hdr {
+        @include heading-settings();
+        font-size: 37px;
+      }
+
+      .paragraph-wrapper {
+        @include p-tags;
+        width: 50%;
+        line-height: 1.5;
+
+        a {
+          @include top-a-tags;
+        }
+      }
+
+      a {
+        @include top-a-tags;
+      }
+    }
+
+    .list-types {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        @include heading-settings;
+      }
+      .list-hdr {
+        font-size: 37px;
+      }
+      .defintion-hdr {
+        font-size: 32px;
+      }
+
+      .definition-title {
+        @include heading-settings;
+        font-size: 19px;
+      }
+
+      p {
+        @include p-tags;
+      }
+    }
+
+    .ordered-list {
+      .order-hdr {
+        @include heading-settings;
+        font-size: 32px;
+        font-weight: 500;
+      }
+
+      ol {
+        // gap: 10px;
+        @include p-tags;
+      }
+    }
+
+    .unordered-list {
+      .unorder-hdr {
+        @include heading-settings;
+        font-size: 32px;
+        font-weight: 500;
+      }
+
+      ul {
+        @include p-tags;
+      }
+
+      a {
+        @include top-a-tags;
       }
     }
   }

@@ -49,4 +49,111 @@ body {
 }
 .page-container .main-wrapper .heading-font-sizing .h1 {
   color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+.page-container .main-wrapper .heading-font-sizing .h2 {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 37px;
+}
+.page-container .main-wrapper .heading-font-sizing .h3 {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+}
+.page-container .main-wrapper .heading-font-sizing .h4 {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 27px;
+}
+.page-container .main-wrapper .heading-font-sizing .h5 {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+.page-container .main-wrapper .heading-font-sizing .h6 {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.page-container .main-wrapper .heading-font-sizing a {
+  text-decoration: none;
+  color: #e91e63;
+  transition: 0.3s ease-in;
+}
+.page-container .main-wrapper .paragraph .paragraph-hdr {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 37px;
+}
+.page-container .main-wrapper .paragraph .paragraph-wrapper {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 50%;
+  line-height: 1.5;
+}
+.page-container .main-wrapper .paragraph .paragraph-wrapper a {
+  text-decoration: none;
+  color: #e91e63;
+}
+.page-container .main-wrapper .paragraph a {
+  text-decoration: none;
+  color: #e91e63;
+}
+.page-container .main-wrapper .list-types {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-container .main-wrapper .list-types span {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .list-types .list-hdr {
+  font-size: 37px;
+}
+.page-container .main-wrapper .list-types .defintion-hdr {
+  font-size: 32px;
+}
+.page-container .main-wrapper .list-types .definition-title {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+.page-container .main-wrapper .list-types p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.page-container .main-wrapper .ordered-list .order-hdr {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.page-container .main-wrapper .ordered-list ol {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.page-container .main-wrapper .unordered-list .unorder-hdr {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.page-container .main-wrapper .unordered-list ul {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.page-container .main-wrapper .unordered-list a {
+  text-decoration: none;
+  color: #e91e63;
 }/*# sourceMappingURL=elements.css.map */
