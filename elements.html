@@ -123,21 +123,10 @@
           <a href="../pages/elements-page.html">[top]</a>
         </div>
 
-        <h1 class="title-of-section">Forms</h1>
-        <p>Legend</p>
-        <p class="lorem-paragraph">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
-          dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis
-          suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at,
-          tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis
-          luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget
-          metus.
-        </p>
-
-        <form>
-          <h1 class="title-of-section">Form Element</h1>
-          <p>Legend</p>
-          <p class="lorem-paragraph">
+        <div class="forms">
+          <span class="forms-hdr">Forms</h1>
+          <p class="Legend">Legend</p>
+          <p class="forms-paragraph">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
             dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
             iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi,
@@ -145,45 +134,45 @@
             mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu
             volutpat enim diam eget metus.
           </p>
+          <!-- <hr> -->
+        </div>
 
-          <h1>Form Element</h1>
-
-          <p class="lorem-paragraph">
+        <form>
+          <span class="form-element-hdr">Form Element</span>
+          <p class="form-element-paragraph">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
             dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
             iaculis suscipit dui.
           </p>
 
-          <div class="text-field-text-box">
+          <div class="text-field-text-area">
             <p>Text Field:</p>
-            <input type="" /> <br />
-          </div>
+            <input type="" />
 
-          <div class="text-area-text-box">
             <p>Text Area:</p>
             <input type="" />
           </div>
 
-          <div class="select-option-area">
-            <h3 for="reservation">Select Element:</h3>
-            <br />
-            <select name="select-element-field">
-              <option value="option-group-1" disabled selected>
-                Option Group 1
-              </option>
-              <option value="option-1">Option 1</option>
-              <option value="option-2">Option 2</option>
-              <option value="option-3">Option 3</option>
-              <option value="option-group-2" disabled selected>
-                Option Group 2
-              </option>
-              <option value="option-1">Option 1</option>
-              <option value="option-2">Option 2</option>
-              <option value="option-3">Option 3</option>
+
+          <div class="select-element">
+            <label for="select-element-hdr">Select Element:</label>
+            <select id="select-element-hdr" name="select-element-hdr">
+              <option value="" disabled selected>Select an option</option>
+              <optgroup label="Option Group 1">
+                <option value="option-1">Option 1</option>
+                <option value="option-2">Option 2</option>
+                <option value="option-3">Option 3</option>
+              </optgroup>
+              <optgroup label="Option Group 2">
+                <option value="option-4">Option 1</option>
+                <option value="option-5">Option 2</option>
+                <option value="option-6">Option 3</option>
+              </optgroup>
             </select>
           </div>
+          
 
-          <div class="radio-select-button-area">
+          <div class="radio-buttons">
             <p>Radio Buttons:</p>
             <input name="radio" id="radio1" type="radio" value="radio1" />
             <label for="radio1">Radio 1</label> <br />
@@ -193,17 +182,17 @@
             <label for="radio3">Radio 3</label>
           </div>
 
-          <div class="radio-checkbox-area">
+          <div class="checkboxes">
             <p>Checkboxes:</p>
             <input name="radio" id="checkbox1" type="checkbox" value="radio1" />
-            <label for="radio1">Checkbox 1</label> <br />
+            <label for="radio1">Radio 1</label> <br />
             <input name="radio" id="checkbox2" type="checkbox" value="radio2" />
-            <label for="radio2">Checkbox 2</label> <br />
+            <label for="radio2">Radio 2</label> <br />
             <input name="radio" id="checkbox3" type="checkbox" value="radio3" />
-            <label for="radio3">Checkbox 3</label>
+            <label for="radio3">Radio 3</label>
           </div>
 
-          <div class="password-button">
+          <div class="password">
             <label for="password">
               <p>Password:</p>
               <input type="password" id="password" class="password-input" />
@@ -212,10 +201,9 @@
 
           <div class="file-input">
             <label for="file">File Input:</label>
-            <br />
             <input type="file" />
           </div>
-          ]
+          
           <div class="submit-button">
             <input type="submit" value="Clear" />
             <a href="../pages/index.html">

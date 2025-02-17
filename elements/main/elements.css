@@ -156,4 +156,111 @@ body {
 .page-container .main-wrapper .unordered-list a {
   text-decoration: none;
   color: #e91e63;
+}
+.page-container .main-wrapper .forms .forms-hdr {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.page-container .main-wrapper .forms .legend {
+  color: #333333;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .forms .forms-paragraph {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 50%;
+}
+.page-container .main-wrapper form .form-element-hdr {
+  color: #3c4858;
+  font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.page-container .main-wrapper form p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 50%;
+}
+.page-container .main-wrapper .text-field-text-area p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .select-element {
+  display: flex;
+  flex-direction: column;
+}
+.page-container .main-wrapper .select-element label {
+  display: block;
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .select-element select {
+  width: 150px;
+}
+.page-container .main-wrapper .radio-buttons p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .radio-buttons label {
+  display: block;
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.page-container .main-wrapper .checkboxes p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .checkboxes label {
+  display: block;
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.page-container .main-wrapper .password p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .file-input label {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-weight: bolder;
+}
+.page-container .main-wrapper .submit-button {
+  margin-top: 20px;
+}
+.page-container .main-wrapper .submit-button button {
+  background-color: #e91e63;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border-color: #e91e63;
+  cursor: pointer;
+  box-shadow: none;
 }/*# sourceMappingURL=elements.css.map */

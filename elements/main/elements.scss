@@ -177,5 +177,108 @@ body {
         @include top-a-tags;
       }
     }
+
+    .forms {
+      .forms-hdr {
+        @include heading-settings;
+        font-size: 32px;
+        font-weight: 500;
+      }
+
+      .legend {
+        color: #333333;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .forms-paragraph {
+        @include p-tags;
+        width: 50%;
+      }
+    }
+
+    form {
+      .form-element-hdr {
+        @include heading-settings;
+        font-size: 32px;
+        font-weight: 500;
+      }
+
+      p {
+        @include p-tags;
+        width: 50%;
+      }
+      // hr {
+      //   border-top: 1px solid;
+      // }
+    }
+
+    .text-field-text-area {
+      p {
+        @include p-tags();
+        font-weight: bolder;
+      }
+    }
+
+    .select-element {
+      display: flex;
+      flex-direction: column;
+      label {
+        display: block;
+        @include p-tags;
+        font-weight: bolder;
+      }
+      select {
+        width: 150px;
+      }
+    }
+
+    .radio-buttons {
+      p {
+        @include p-tags();
+        font-weight: bolder;
+      }
+      label {
+        display: block;
+        @include p-tags();
+      }
+    }
+
+    .checkboxes {
+      p {
+        @include p-tags();
+        font-weight: bolder;
+      }
+      label {
+        display: block;
+        @include p-tags();
+      }
+    }
+
+    .password {
+      p {
+        @include p-tags();
+        font-weight: bolder;
+      }
+    }
+
+    .file-input {
+      label {
+        @include p-tags();
+        font-weight: bolder;
+      }
+    }
+
+    .submit-button {
+      margin-top: 20px;
+      button {
+        background-color: #e91e63;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 5px;
+        border-color: #e91e63;
+        cursor: pointer;
+        box-shadow: none;
+      }
+    }
   }
 }
