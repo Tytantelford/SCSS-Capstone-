@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
   </head>
   <body>
     <div class="page-container">
@@ -46,13 +50,14 @@
         >
       </div>
       <div class="main-wrapper">
-        <p>
-          The purpose of this HTML is to help determine what default settings
-          are with CSS and to make sure that all possible HTML Elements are
-          included in this HTML so as to not miss any possible Elements when
-          designing a site.
-        </p>
-
+        <div class="main-paragraph">
+          <p>
+            The purpose of this HTML is to help determine what default settings
+            are with CSS and to make sure that all possible HTML Elements are
+            included in this HTML so as to not miss any possible Elements when
+            designing a site.
+          </p>  
+        </div>  
         <div class="heading-font-sizing">
           <h1 class="h1">Heading 1</h1>
           <h2 class="h2">Heading 2</h2>
@@ -210,12 +215,11 @@
               <button type="submit">Submit</button>
             </a>
           </div>
+          <a class="button-a-tag" href="../pages/elements-page.html">[top]</a>
         </form>
 
-        <a href="../pages/elements-page.html">[top]</a>
-
         <div class="tables">
-          <h1>Tables</h1>
+          <span class="tables-hdr">Tables</span>
           <table>
             <thead>
               <th scope="col">Table Header 1</th>
@@ -242,15 +246,15 @@
           </table>
         </div>
 
-        <a href="../pages/elements-page.html">[top]</a>
+        <a href="../elements.html">[top]</a>
 
-        <div>
-          <h1>
+        <div class="misc">
+          <span class="misc-hdr">
             Misc Stuff – abbr, acronym,<br />
             pre, code, sub, sup, etc.
-          </h1>
+          </span>
 
-          <p>
+          <p class="lorem-1">
             Lorem superscript dolor subscript amet, consectetuer adipiscing
             elit. Nullam dignissim convallis est. Quisque aliquam. cite. Nunc
             iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi,
@@ -262,7 +266,7 @@
             imperdiet augue quis tellus. AVE
           </p>
 
-          <p>
+          <p class="lorem-2">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam
             dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc
             iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi,
@@ -274,12 +278,50 @@
             imperdiet augue quis tellus. AVE
           </p>
 
-          <p>
+          <p class="blockquote">
             “This stylesheet is going to help so freaking much.” <br />
             -Blockquote
           </p>
 
           <a href="../pages/elements-page.html">[top]</a>
+        </div>
+
+        <span class="categories"
+        >Categories:
+        <a class="pink-uncategorized" href="#">UNCATEGORIZED</a></span
+      >
+        <span class="tags">Tags: <a href="#">wordpress</a></span>
+        <div class="icons-container">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+    <div class="related-posts-container">
+      <div class="related-heading">
+        <span>Related Posts</span>
+      </div>
+      <div class="grid-container">
+        <div class="purple">
+          <a class="purple-uncategorized" href="">Uncategorized</a>
+          <span>Worth A Thousand Words</span>
+          <p>Boat.</p>
+        </div>
+
+        <div class="blue">
+          <a class="blue-uncategorized" href="#">Uncategorized</a>
+          <span>More Tags</span>
+          <p>
+            More of these posts need tags.
+          </p>
+        </div>
+
+        <div class="red">
+          <a class="red-uncategorized" href="#">Uncategorized</a>
+          <span>HTML</span>
+          <p>
+            What HTML tags would you like to see? Let’s start with an unordered list: One Two Three Four And then move on to a more interesting ordered list: one, two buckle my shoe three, four
+            <a href="#">Read more…</a>
+          </p>
         </div>
       </div>
     </div>
