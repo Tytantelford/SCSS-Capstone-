@@ -51,7 +51,7 @@ body {
   flex-direction: column;
 }
 .page-container .main-wrapper .main-container hr {
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(238, 238, 238, 0.4705882353);
 }
 .page-container .main-wrapper .main-container a {
   text-decoration: none;
@@ -319,25 +319,33 @@ body {
   font-family: "Roboto", Helvetica, Arial, Helvetica, sans-serif;
   font-size: 37px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
+  margin: 30px 0;
 }
 .page-container .main-wrapper .main-container .tables .grid-table {
+  width: 60%;
+}
+.page-container .main-wrapper .main-container .tables .grid-table .table-hdr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-}
-.page-container .main-wrapper .main-container .tables .grid-table table {
-  color: #3c4858;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-}
-.page-container .main-wrapper .main-container .tables .grid-table thead {
   color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
   font-weight: bolder;
+}
+.page-container .main-wrapper .main-container .tables .grid-table .division-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+}
+.page-container .main-wrapper .main-container .tables .grid-table .division-wrapper p {
+  color: #3c4858;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  border-top: 1px solid black;
+  padding-top: 13px;
 }
 .page-container .main-wrapper .main-container .misc .misc-hdr {
   color: #3c4858;

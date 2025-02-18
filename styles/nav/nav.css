@@ -24,7 +24,8 @@
 }
 .page-container header nav .nav-more {
   background-color: #e91e63;
-  border-radius: 10px;
+  border-radius: 30%;
+  padding: 10px 25px;
 }
 .page-container header nav .nav-more a {
   color: white;
