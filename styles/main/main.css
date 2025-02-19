@@ -66,6 +66,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   width: 80px;
+  text-decoration: none;
 }
 .page-container .main-wrapper {
   background-color: white;
@@ -185,7 +186,7 @@ body {
   text-align: left;
   margin-left: 30px;
 }
-.page-container .main-wrapper .blog-container .grid-container span {
+.page-container .main-wrapper .blog-container .grid-container .a-tag-hdr {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
@@ -194,6 +195,10 @@ body {
   font-weight: 700;
   font-family: "Roboto Slab", "Times New Roman", serif;
   margin-top: 10px;
+}
+.page-container .main-wrapper .blog-container .grid-container .a-tag-hdr:hover {
+  cursor: pointer;
+  color: #a1a2a3;
 }
 .page-container .main-wrapper .blog-container .grid-container p {
   color: #999999;
@@ -215,15 +220,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .grid-container .purple-uncategorized:hover {
+  color: rgba(137, 34, 155, 0.7137254902);
+}
 .page-container .main-wrapper .blog-container .grid-container .blue-uncategorized {
   color: #00bcd4;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .grid-container .blue-uncategorized:hover {
+  color: rgba(0, 187, 212, 0.6862745098);
+}
 .page-container .main-wrapper .blog-container .grid-container .red-uncategorized {
   color: #f44336;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+}
+.page-container .main-wrapper .blog-container .grid-container .red-uncategorized:hover {
+  color: rgba(244, 67, 54, 0.6941176471);
 }
 .page-container .main-wrapper .get-in-touch-container {
   background-image: url("../../assets/mountain.jpg");
@@ -244,11 +258,13 @@ body {
   font-size: 37px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
+  line-height: 3;
 }
 .page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .find-us-office {
   font-size: 18px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
+  line-height: 3;
 }
 .page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .find-us-office i {
   font-size: 32px;
@@ -256,11 +272,16 @@ body {
 .page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .strada-address {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 3;
 }
 .page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .give-us-ring {
   font-size: 18px;
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: 700;
+  line-height: 3;
+}
+.page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .give-us-ring i {
+  font-size: 32px;
 }
 .page-container .main-wrapper .get-in-touch-container .get-in-touch-wrapper .john-doe-number {
   font-size: 14px;

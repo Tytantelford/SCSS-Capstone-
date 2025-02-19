@@ -25,6 +25,9 @@
 .page-container header nav .nav-links .nav-label a {
   font-size: 12px;
 }
+.page-container header nav .nav-links .nav-label a:hover {
+  color: #e91e63;
+}
 .page-container header nav .nav-more {
   background-color: #e91e63;
   border-radius: 30px;
@@ -46,4 +49,7 @@
   font-size: 18px;
   color: #555555;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container header nav a:hover {
+  color: #949494;
 }/*# sourceMappingURL=nav.css.map */

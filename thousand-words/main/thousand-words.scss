@@ -23,7 +23,7 @@ body {
     align-items: center;
     padding-top: 100px;
     background: linear-gradient(to right, #b32281, #e03572);
-    height: 300px;
+    height: 400px;
 
     .thousand-words-hdr {
       font-size: 42px;
@@ -38,6 +38,15 @@ body {
       color: white;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       margin-bottom: 90px;
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          cursor: pointer;
+          color: #ffffffd8;
+        }
+      }
     }
   }
 
@@ -85,10 +94,15 @@ body {
 
       .pink-uncategorized {
         color: white;
-        background-color: #e03572;
-        border-radius: 8px;
+        background-color: #e91e63;
+        border-radius: 12px;
+        padding: 5px 12px;
         text-decoration: none;
         font-size: 10px;
+
+        &:hover {
+          color: pink;
+        }
       }
 
       .tags {
@@ -100,7 +114,12 @@ body {
       a {
         text-decoration: none;
         font-size: 14px;
-        color: #e4e4e4;
+        color: #e03572;
+
+        &:hover {
+          cursor: pointer;
+          color: #e03571b6;
+        }
       }
       .icons-container {
         display: flex;
@@ -110,8 +129,25 @@ body {
         font-size: 2rem;
         gap: 5px;
 
+        .fa-brands.fa-x-twitter {
+          background-color: black;
+          border-radius: 50%;
+
+          &:hover {
+            transition: box-shadow 0.3s ease-in-out;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          }
+        }
+
         .fa-brands.fa-facebook {
           color: #3b5998;
+
+          &:hover {
+            transition: box-shadow 0.3s ease-in-out;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          }
         }
 
         .fa-solid.fa-envelope {
@@ -161,14 +197,14 @@ body {
       .gray {
         text-align: left;
         height: 100px;
+        width: 250px;
       }
 
       .red {
         text-align: left;
-        margin-left: 30px;
       }
 
-      span {
+      .a-tag-hdr {
         display: block;
         font-weight: 700;
         margin-bottom: 5px;
@@ -177,6 +213,12 @@ body {
         font-weight: 700;
         font-family: "Roboto Slab", "Times New Roman", serif;
         margin-top: 10px;
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+          color: #3c4858c4;
+        }
       }
 
       p {
@@ -186,21 +228,45 @@ body {
         line-height: 1.5;
         text-align: left;
         max-width: 200px;
+
+        a {
+          text-decoration: none;
+          color: #092b58;
+
+          &:hover {
+            color: #e91e62a6;
+          }
+        }
       }
 
       .purple-uncategorized {
         color: #89229b;
         @include uncategorized-setting;
+
+        &:hover {
+          cursor: pointer;
+          color: #89229bbe;
+        }
       }
 
       .gray-uncategorized {
         color: gray;
         @include uncategorized-setting;
+
+        &:hover {
+          cursor: pointer;
+          color: #808080b5;
+        }
       }
 
       .red-uncategorized {
         color: #f44336;
         @include uncategorized-setting;
+
+        &:hover {
+          cursor: pointer;
+          color: #f44336b6;
+        }
       }
     }
   }

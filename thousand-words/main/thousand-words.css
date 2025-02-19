@@ -17,7 +17,7 @@ body {
   align-items: center;
   padding-top: 100px;
   background: linear-gradient(to right, #b32281, #e03572);
-  height: 300px;
+  height: 400px;
 }
 .page-container .hero-wrapper .thousand-words-hdr {
   font-size: 42px;
@@ -31,6 +31,14 @@ body {
   color: white;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin-bottom: 90px;
+}
+.page-container .hero-wrapper .published-date a {
+  text-decoration: none;
+  color: white;
+}
+.page-container .hero-wrapper .published-date a:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8470588235);
 }
 .page-container .main-wrapper {
   background-color: white;
@@ -75,10 +83,14 @@ body {
 }
 .page-container .main-wrapper .img-container .pink-uncategorized {
   color: white;
-  background-color: #e03572;
-  border-radius: 8px;
+  background-color: #e91e63;
+  border-radius: 12px;
+  padding: 5px 12px;
   text-decoration: none;
   font-size: 10px;
+}
+.page-container .main-wrapper .img-container .pink-uncategorized:hover {
+  color: pink;
 }
 .page-container .main-wrapper .img-container .tags {
   color: #3c4858;
@@ -88,7 +100,11 @@ body {
 .page-container .main-wrapper .img-container a {
   text-decoration: none;
   font-size: 14px;
-  color: #e4e4e4;
+  color: #e03572;
+}
+.page-container .main-wrapper .img-container a:hover {
+  cursor: pointer;
+  color: rgba(224, 53, 113, 0.7137254902);
 }
 .page-container .main-wrapper .img-container .icons-container {
   display: flex;
@@ -98,8 +114,22 @@ body {
   font-size: 2rem;
   gap: 5px;
 }
+.page-container .main-wrapper .img-container .icons-container .fa-brands.fa-x-twitter {
+  background-color: black;
+  border-radius: 50%;
+}
+.page-container .main-wrapper .img-container .icons-container .fa-brands.fa-x-twitter:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 .page-container .main-wrapper .img-container .icons-container .fa-brands.fa-facebook {
   color: #3b5998;
+}
+.page-container .main-wrapper .img-container .icons-container .fa-brands.fa-facebook:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .page-container .main-wrapper .img-container .icons-container .fa-solid.fa-envelope {
   color: #999;
@@ -142,12 +172,12 @@ body {
 .page-container .related-posts-container .grid-container .gray {
   text-align: left;
   height: 100px;
+  width: 250px;
 }
 .page-container .related-posts-container .grid-container .red {
   text-align: left;
-  margin-left: 30px;
 }
-.page-container .related-posts-container .grid-container span {
+.page-container .related-posts-container .grid-container .a-tag-hdr {
   display: block;
   font-weight: 700;
   margin-bottom: 5px;
@@ -156,6 +186,11 @@ body {
   font-weight: 700;
   font-family: "Roboto Slab", "Times New Roman", serif;
   margin-top: 10px;
+  text-decoration: none;
+}
+.page-container .related-posts-container .grid-container .a-tag-hdr:hover {
+  cursor: pointer;
+  color: rgba(60, 72, 88, 0.768627451);
 }
 .page-container .related-posts-container .grid-container p {
   color: #999999;
@@ -165,11 +200,22 @@ body {
   text-align: left;
   max-width: 200px;
 }
+.page-container .related-posts-container .grid-container p a {
+  text-decoration: none;
+  color: #092b58;
+}
+.page-container .related-posts-container .grid-container p a:hover {
+  color: rgba(233, 30, 98, 0.6509803922);
+}
 .page-container .related-posts-container .grid-container .purple-uncategorized {
   color: #89229b;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-decoration: none;
+}
+.page-container .related-posts-container .grid-container .purple-uncategorized:hover {
+  cursor: pointer;
+  color: rgba(137, 34, 155, 0.7450980392);
 }
 .page-container .related-posts-container .grid-container .gray-uncategorized {
   color: gray;
@@ -177,9 +223,17 @@ body {
   font-size: 12px;
   text-decoration: none;
 }
+.page-container .related-posts-container .grid-container .gray-uncategorized:hover {
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.7098039216);
+}
 .page-container .related-posts-container .grid-container .red-uncategorized {
   color: #f44336;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-decoration: none;
+}
+.page-container .related-posts-container .grid-container .red-uncategorized:hover {
+  cursor: pointer;
+  color: rgba(244, 67, 54, 0.7137254902);
 }/*# sourceMappingURL=thousand-words.css.map */
