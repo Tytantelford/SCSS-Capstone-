@@ -8,6 +8,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 
 @mixin top-a-tags {
@@ -74,7 +76,7 @@ body {
     margin: 0 auto;
     margin-top: -50px;
     display: flex;
-    height: 4200px;
+    height: 4500px;
     // flex-direction: column;
     // align-items: flex-start;
 
@@ -94,7 +96,8 @@ body {
       .main-paragraph {
         p {
           @include p-tags();
-          margin-top: 200px;
+          margin-top: 100px;
+          line-height: 1.6;
         }
       }
 
@@ -238,9 +241,6 @@ body {
           @include p-tags;
           width: 50%;
         }
-        // hr {
-        //   border-top: 1px solid;
-        // }
       }
 
       .text-field-text-area {
@@ -352,10 +352,14 @@ body {
           font-weight: 500;
           text-align: left;
           margin: 30px 0;
+          width: 80%;
         }
 
         .grid-table {
-          width: 60%;
+          width: 80%;
+          // display: flex;
+          // align-items: center;
+          justify-content: center;
 
           .table-hdr {
             display: grid;
@@ -373,10 +377,6 @@ body {
               @include p-tags();
               border-top: 1px solid black;
               padding-top: 13px;
-            }
-
-            .header-3 {
-              // border-top: 1px solid black;
             }
           }
         }
@@ -427,9 +427,10 @@ body {
       .pink-uncategorized {
         color: white;
         background-color: #e03572;
-        border-radius: 8px;
         text-decoration: none;
         font-size: 10px;
+        padding: 5px 12px;
+        border-radius: 12px;
       }
 
       .tags {

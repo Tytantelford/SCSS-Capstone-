@@ -16,10 +16,13 @@
       flex-direction: row;
       width: 100%;
       padding: 0 40px;
+      align-items: center;
 
       .nav-links {
         display: flex;
         gap: 20px;
+        align-items: center;
+        justify-content: center;
 
         .nav-label {
           a {
@@ -29,11 +32,20 @@
       }
       .nav-more {
         background-color: #e91e63;
-        border-radius: 30%;
-        padding: 10px 25px;
+        border-radius: 30px;
+        padding: 16px 25px;
         a {
           color: white;
           font-size: 12px;
+        }
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 0px 4px 10px #e91e63;
+        }
+
+        &:hover a {
+          color: #dadada;
         }
       }
 

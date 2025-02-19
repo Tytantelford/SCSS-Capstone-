@@ -43,7 +43,7 @@ body {
   margin: 0 auto;
   margin-top: -50px;
   display: flex;
-  height: 4200px;
+  height: 4500px;
 }
 .page-container .main-wrapper .main-container {
   width: 60%;
@@ -62,7 +62,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
-  margin-top: 200px;
+  width: 77%;
+  align-items: center;
+  margin-top: 100px;
+  line-height: 1.6;
 }
 .page-container .main-wrapper .main-container .heading-font-sizing .h1 {
   color: #3c4858;
@@ -109,6 +112,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   width: 50%;
   line-height: 1.5;
 }
@@ -145,6 +150,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .ordered-list .order-hdr {
   color: #3c4858;
@@ -157,6 +164,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .unordered-list .unorder-hdr {
   color: #3c4858;
@@ -169,6 +178,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .unordered-list a {
   text-decoration: none;
@@ -190,6 +201,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   width: 50%;
 }
 .page-container .main-wrapper .main-container form .form-element-hdr {
@@ -203,6 +216,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   width: 50%;
 }
 .page-container .main-wrapper .main-container .text-field-text-area p {
@@ -210,6 +225,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .text-field-text-area input {
@@ -230,6 +247,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .select-element select {
@@ -240,6 +259,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .radio-buttons label {
@@ -248,12 +269,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .checkboxes p {
   color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .checkboxes label {
@@ -262,12 +287,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .password p {
   color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .password input {
@@ -286,12 +315,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .file-input label {
   color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .submit-button {
@@ -321,9 +354,11 @@ body {
   font-weight: 500;
   text-align: left;
   margin: 30px 0;
+  width: 80%;
 }
 .page-container .main-wrapper .main-container .tables .grid-table {
-  width: 60%;
+  width: 80%;
+  justify-content: center;
 }
 .page-container .main-wrapper .main-container .tables .grid-table .table-hdr {
   display: grid;
@@ -332,6 +367,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   font-weight: bolder;
 }
 .page-container .main-wrapper .main-container .tables .grid-table .division-wrapper {
@@ -344,6 +381,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   border-top: 1px solid black;
   padding-top: 13px;
 }
@@ -358,6 +397,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
   width: 50%;
 }
 .page-container .main-wrapper .main-container .misc .lorem-2 {
@@ -382,6 +423,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+  width: 77%;
+  align-items: center;
 }
 .page-container .main-wrapper .main-container .categories {
   color: #3c4858;
@@ -391,9 +434,10 @@ body {
 .page-container .main-wrapper .main-container .pink-uncategorized {
   color: white;
   background-color: #e03572;
-  border-radius: 8px;
   text-decoration: none;
   font-size: 10px;
+  padding: 5px 12px;
+  border-radius: 12px;
 }
 .page-container .main-wrapper .main-container .tags {
   color: #3c4858;

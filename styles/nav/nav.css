@@ -14,22 +14,32 @@
   flex-direction: row;
   width: 100%;
   padding: 0 40px;
+  align-items: center;
 }
 .page-container header nav .nav-links {
   display: flex;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .page-container header nav .nav-links .nav-label a {
   font-size: 12px;
 }
 .page-container header nav .nav-more {
   background-color: #e91e63;
-  border-radius: 30%;
-  padding: 10px 25px;
+  border-radius: 30px;
+  padding: 16px 25px;
 }
 .page-container header nav .nav-more a {
   color: white;
   font-size: 12px;
+}
+.page-container header nav .nav-more:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px #e91e63;
+}
+.page-container header nav .nav-more:hover a {
+  color: #dadada;
 }
 .page-container header nav a {
   text-decoration: none;
