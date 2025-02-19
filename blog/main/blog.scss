@@ -39,6 +39,13 @@ $gray-color: #3c4858;
   }
 }
 
+@media (max-width: 425px) {
+  .page-container {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
 html,
 body {
   margin: 0;
