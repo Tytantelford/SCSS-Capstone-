@@ -19,6 +19,10 @@ footer nav .nav-links-left {
 footer nav .nav-links-left .nav-label a {
   font-size: 12px;
 }
+footer nav .nav-links-left .nav-label a:hover {
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.7568627451);
+}
 footer nav .developed-by {
   margin-left: auto;
   color: white;
