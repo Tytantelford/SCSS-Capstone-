@@ -15,6 +15,11 @@
 @mixin top-a-tags {
   text-decoration: none;
   color: #e91e63;
+
+  &:hover {
+    transition: all 0.3s ease;
+    color: #e91e62c8;
+  }
 }
 
 @mixin uncategorized-setting {
@@ -63,6 +68,16 @@ body {
       color: white;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       margin-bottom: 90px;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #ffffffb6;
+        }
+      }
     }
   }
 
@@ -151,6 +166,7 @@ body {
 
           a {
             @include top-a-tags;
+            font-size: 18px;
           }
         }
 
@@ -269,6 +285,7 @@ body {
         }
         select {
           width: 150px;
+          padding: 7px;
         }
       }
 
@@ -387,11 +404,12 @@ body {
           @include heading-settings();
           font-size: 37px;
           font-weight: 500;
+          line-height: 1.5;
         }
 
         .lorem-1 {
           @include p-tags();
-          width: 50%;
+          width: 60%;
         }
 
         .lorem-2 {
@@ -513,15 +531,21 @@ body {
         margin-left: 30px;
       }
 
-      span {
+      .hdr-a-tag {
         display: block;
         font-weight: 700;
         margin-bottom: 5px;
         color: #3c4858;
         font-size: 18px;
         font-weight: 700;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Roboto Slab", Helvetica, Arial, Helvetica, sans-serif;
         margin-top: 10px;
+        text-decoration: none;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #3c4858cb;
+        }
       }
 
       p {
@@ -534,22 +558,42 @@ body {
         a {
           text-decoration: none;
           color: #23527c;
+
+          &:hover {
+            transition: all 0.3s ease;
+            color: #e91e62c4;
+          }
         }
       }
 
       .purple-uncategorized {
         color: #89229b;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #89229bd2;
+        }
       }
 
       .blue-uncategorized {
         color: #00bcd4;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #00bbd4c0;
+        }
       }
 
       .red-uncategorized {
         color: #f44336;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #f44336cb;
+        }
       }
     }
   }

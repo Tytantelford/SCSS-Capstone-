@@ -39,7 +39,16 @@ body {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
       margin-bottom: 90px;
       font-weight: 300px;
-      // font-weight wont change ^ //
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #ffffffb6;
+        }
+      }
     }
   }
 
@@ -80,9 +89,15 @@ body {
       .pink-uncategorized {
         color: white;
         background-color: #e03572;
-        border-radius: 8px;
         text-decoration: none;
         font-size: 10px;
+        border-radius: 12px;
+        padding: 5px 12px;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: pink;
+        }
       }
 
       .tags {
@@ -95,6 +110,11 @@ body {
         text-decoration: none;
         font-size: 14px;
         color: #e91e63;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #e91e62d5;
+        }
       }
       .icons-container {
         display: flex;
@@ -104,8 +124,25 @@ body {
         font-size: 2rem;
         gap: 5px;
 
+        .fa-brands.fa-x-twitter {
+          background-color: black;
+          border-radius: 50%;
+
+          &:hover {
+            transition: box-shadow 0.3s ease-in-out;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          }
+        }
+
         .fa-brands.fa-facebook {
           color: #3b5998;
+
+          &:hover {
+            transition: box-shadow 0.3s ease-in-out;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          }
         }
 
         .fa-solid.fa-envelope {
@@ -164,7 +201,7 @@ body {
         margin-left: 30px;
       }
 
-      span {
+      .a-tag-hdr {
         display: block;
         font-weight: 700;
         margin-bottom: 5px;
@@ -173,6 +210,12 @@ body {
         font-weight: 700;
         font-family: "Roboto Slab", "Times New Roman", serif;
         margin-top: 10px;
+        text-decoration: none;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #3c4858bb;
+        }
       }
 
       p {
@@ -185,22 +228,42 @@ body {
         a {
           text-decoration: none;
           color: #23527c;
+
+          &:hover {
+            transition: all 0.3s ease;
+            color: pink;
+          }
         }
       }
 
       .purple-uncategorized {
         color: #89229b;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #89229bba;
+        }
       }
 
       .blue-uncategorized {
         color: #00bcd4;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #00bbd4c8;
+        }
       }
 
       .red-uncategorized {
         color: #f44336;
         @include uncategorized-setting;
+
+        &:hover {
+          transition: all 0.3s ease;
+          color: #f44336c7;
+        }
       }
     }
   }

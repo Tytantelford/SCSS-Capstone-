@@ -28,13 +28,12 @@ body {
 }
 .page-container .main-wrapper {
   background-color: white;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 0 0;
   padding: -20px;
   width: 95%;
   justify-content: center;
   margin: 0 auto;
   margin-top: -50px;
-  margin-bottom: 200px;
   display: flex;
   height: 1800px;
 }
@@ -60,11 +59,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .purple .purple-uncategorized:hover {
+  color: rgba(137, 34, 155, 0.768627451);
+}
 .page-container .main-wrapper .blog-container .purple .thousand-words-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .purple .thousand-words-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .purple p {
   color: #999999;
@@ -79,6 +84,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .purple span .years {
   font-weight: normal;
@@ -98,11 +106,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .blue .blue-uncategorized:hover {
+  color: rgba(0, 187, 212, 0.7490196078);
+}
 .page-container .main-wrapper .blog-container .blue .elements-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .blue .elements-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .blue p {
   color: #999999;
@@ -113,6 +127,10 @@ body {
 .page-container .main-wrapper .blog-container .blue p a {
   color: #23527c;
 }
+.page-container .main-wrapper .blog-container .blue p a:hover {
+  color: rgba(233, 30, 98, 0.7725490196);
+  transition: all 0.3s ease;
+}
 .page-container .main-wrapper .blog-container .blue span span {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -121,6 +139,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .blue span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .blue span .years {
   font-weight: normal;
@@ -139,11 +160,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .red .red-uncategorized:hover {
+  color: rgba(244, 67, 54, 0.7019607843);
+}
 .page-container .main-wrapper .blog-container .red .more-tags-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .red .more-tags-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .red p {
   color: #999999;
@@ -158,6 +185,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .red span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .red span .years {
   font-weight: normal;
@@ -177,11 +207,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .orange .orange-uncategorized:hover {
+  color: rgba(255, 153, 0, 0.737254902);
+}
 .page-container .main-wrapper .blog-container .orange .html-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .orange .html-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .orange p {
   color: #999999;
@@ -192,6 +228,10 @@ body {
 .page-container .main-wrapper .blog-container .orange p a {
   color: #23527c;
 }
+.page-container .main-wrapper .blog-container .orange p a:hover {
+  color: rgba(233, 30, 98, 0.7725490196);
+  transition: all 0.3s ease;
+}
 .page-container .main-wrapper .blog-container .orange span span {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -200,6 +240,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .orange span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .orange span .years {
   font-weight: normal;
@@ -218,11 +261,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .dark-red .dark-red-uncategorized:hover {
+  color: rgba(233, 30, 98, 0.831372549);
+}
 .page-container .main-wrapper .blog-container .dark-red .links-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .dark-red .links-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .dark-red p {
   color: #999999;
@@ -237,6 +286,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .dark-red span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .dark-red span .years {
   font-weight: normal;
@@ -256,17 +308,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .green .first-child-hdr:hover {
+  color: rgba(76, 175, 79, 0.8588235294);
+}
 .page-container .main-wrapper .blog-container .green .hierarchy-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .green .hierarchy-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .green p {
   color: #999999;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+}
+.page-container .main-wrapper .blog-container .green p a {
+  color: #23527c;
+}
+.page-container .main-wrapper .blog-container .green p a:hover {
+  color: rgba(233, 30, 98, 0.7725490196);
+  transition: all 0.3s ease;
 }
 .page-container .main-wrapper .blog-container .green span span {
   color: black;
@@ -276,6 +341,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .green span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .green span .years {
   font-weight: normal;
@@ -294,11 +362,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+.page-container .main-wrapper .blog-container .purple .purple-uncategorized:hover {
+  color: rgba(137, 34, 155, 0.8078431373);
+}
 .page-container .main-wrapper .blog-container .purple .hello-world-hdr {
   font-size: 25px;
-  font-family: "Robo Slab", "Times New Roman", serif;
+  font-family: "Roboto Slab", "Times New Roman", serif;
   color: #3c4858;
   font-weight: 700;
+}
+.page-container .main-wrapper .blog-container .purple .hello-world-hdr:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .purple p {
   color: #999999;
@@ -313,6 +387,9 @@ body {
   color: #3c4858;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+}
+.page-container .main-wrapper .blog-container .purple span a:hover {
+  color: rgba(60, 72, 88, 0.7921568627);
 }
 .page-container .main-wrapper .blog-container .purple span .years {
   font-weight: normal;
