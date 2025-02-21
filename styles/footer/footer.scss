@@ -43,3 +43,11 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    nav {
+      padding: 0;
+    }
+  }
+}
