@@ -39,13 +39,6 @@ $gray-color: #3c4858;
   }
 }
 
-@media (max-width: 425px) {
-  .page-container {
-    font-size: 16px;
-    padding: 10px;
-  }
-}
-
 html,
 body {
   margin: 0;
@@ -85,7 +78,6 @@ body {
     margin: 0 auto;
     margin-top: -50px;
     display: flex;
-    height: 1800px;
 
     .blog-container {
       display: flex;
@@ -323,6 +315,7 @@ body {
         flex-direction: column;
         margin-top: 80px;
         gap: 8px;
+        padding: 20px;
 
         .purple-uncategorized {
           color: #89229b;
