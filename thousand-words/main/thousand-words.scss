@@ -4,13 +4,6 @@
   text-decoration: none;
 }
 
-@media (max-width: 425px) {
-  .page-container {
-    font-size: 16px;
-    padding: 10px;
-  }
-}
-
 html,
 body {
   margin: 0;
@@ -169,7 +162,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 500px;
+    padding: 20px;
     margin: 0 auto;
 
     .related-heading {
@@ -274,6 +267,23 @@ body {
           cursor: pointer;
           color: #f44336b6;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    .hero-wrapper {
+      span {
+        text-align: center;
+      }
+    }
+    .related-posts-container {
+      flex-direction: column;
+      .grid-container {
+        display: flex;
+        flex-direction: column;
       }
     }
   }

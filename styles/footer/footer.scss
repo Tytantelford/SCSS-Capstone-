@@ -46,5 +46,8 @@ footer {
 @media (max-width: 768px) {
   footer {
     position: relative;
+    nav {
+      padding: 0;
+    }
   }
 }

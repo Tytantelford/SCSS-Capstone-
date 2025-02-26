@@ -39,4 +39,7 @@ footer nav a {
   footer {
     position: relative;
   }
+  footer nav {
+    padding: 0;
+  }
 }/*# sourceMappingURL=footer.css.map */

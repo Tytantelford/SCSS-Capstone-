@@ -339,7 +339,7 @@ body {
 .page-container .main-wrapper .main-container .file-input {
   gap: 20px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   color: #3c4858;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -606,10 +606,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    justify-content: center;
+  .related-posts-container {
+    flex-direction: column;
+  }
+  .related-posts-container .grid-container {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=elements.css.map */

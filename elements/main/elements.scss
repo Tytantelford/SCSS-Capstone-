@@ -86,9 +86,6 @@ body {
     margin: 0 auto;
     margin-top: -50px;
     display: flex;
-    // height: 4500px;
-    // flex-direction: column;
-    // align-items: flex-start;
 
     .main-container {
       width: 60%;
@@ -202,7 +199,6 @@ body {
         }
 
         ol {
-          // gap: 10px;
           @include p-tags;
         }
       }
@@ -326,7 +322,7 @@ body {
       .file-input {
         gap: 20px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         @include p-tags();
         label {
           @include p-tags();
@@ -356,7 +352,6 @@ body {
       }
 
       .tables {
-        // gap: 10px;
         .tables-hdr {
           @include heading-settings();
           font-size: 37px;
@@ -368,14 +363,11 @@ body {
 
         .grid-table {
           width: 80%;
-          // display: flex;
-          // align-items: center;
           justify-content: center;
 
           .table-hdr {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            // text-align: center;
             @include p-tags();
             font-weight: bolder;
           }
@@ -407,11 +399,9 @@ body {
         }
 
         .lorem-2 {
-          // display: block;
           font-family: monospace;
           color: #333;
           font-size: 13px;
-          // word-wrap: none;
           white-space: nowrap;
           background-color: #f5f5f5;
           border: 1px solid #ccc;
@@ -594,10 +584,11 @@ body {
 }
 
 @media (max-width: 768px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    justify-content: center;
+  .related-posts-container {
+    flex-direction: column;
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
